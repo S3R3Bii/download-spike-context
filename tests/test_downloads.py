@@ -106,6 +106,60 @@ class DownloadTests(unittest.TestCase):
     def test_large_integer_finite(self):
         self.assertTrue(math.isfinite(anomaly(10**100, [10**99] * 28)))
 
+    def test_future_counts_do_not_change_an_earlier_origin(self):
+        from datetime import date, timedelta
+        from downloads import phase_scores
+
+        rows = [
+            dict(
+                package="example",
+                date=(date(2026, 1, 1) + timedelta(days=i)).isoformat(),
+                with_mirrors=100 + i,
+                without_mirrors=50 + i,
+                state="paired",
+            )
+            for i in range(35)
+        ]
+        plan = dict(
+            packages=[dict(package="example", phase="development")],
+            start="2026-01-01",
+            end="2026-02-04",
+            development_end="2026-02-04",
+            thresholds=[3, 6, 9],
+            minimum_scorable_per_package=0,
+        )
+        before = phase_scores(rows, plan, "development")[28]
+        rows[29]["with_mirrors"] = 10**12
+        self.assertEqual(before, phase_scores(rows, plan, "development")[28])
+        self.assertEqual(before["history_end"], "2026-01-28")
+
+    def test_calendar_gap_stays_unknown(self):
+        from datetime import date, timedelta
+        from downloads import phase_scores
+
+        rows = [
+            dict(
+                package="example",
+                date=(date(2026, 1, 1) + timedelta(days=i)).isoformat(),
+                with_mirrors=100,
+                without_mirrors=50,
+                state="paired",
+            )
+            for i in range(35)
+        ]
+        rows[4].update(with_mirrors=None, without_mirrors=None, state="missing_pair")
+        plan = dict(
+            packages=[dict(package="example", phase="development")],
+            start="2026-01-01",
+            end="2026-02-04",
+            development_end="2026-02-04",
+            thresholds=[3, 6, 9],
+            minimum_scorable_per_package=0,
+        )
+        result = phase_scores(rows, plan, "development")
+        self.assertEqual(result[28]["state"], "UNKNOWN_INCOMPLETE_PAIRED_HISTORY")
+        self.assertEqual(result[33]["state"], "scored")
+
     def test_redirect_guard(self):
         u = "https://pypistats.org/api/packages/example/overall"
         self.assertTrue(allowed(u + "/", u))

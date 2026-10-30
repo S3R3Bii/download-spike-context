@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-10-30T21:58:27.977358+00:00",
+  "timestamp_utc": "2026-10-30T21:58:55.116525+00:00",
   "status": "PASS_BOUNDED_SCAN",
   "files_checked": 34,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
@@ -33,11 +33,11 @@
     "src/downloads.py": "614fad323e97fd039c5c3128ec1ca9519dea20f38e397af8af4b9348749b3a8e",
     "src/freeze_proof.py": "1a6d4604b284c94b703d9ba5e9e2e1ce5301e0b7687e138ac4c093881d6ddc6f",
     "src/prepare_source.py": "123bded81a14dff3bbb0eabe238490c1e90487542561d1c2e2b9044d294d2add",
-    "src/replay.py": "fa57b4a5d76706219b742a34d8e8835913a815b6b7d674eb2c98c93406ee455d",
+    "src/replay.py": "50171088a39d9fa4dd39440ac24707c18fe15697626052459f54885e02246aa4",
     "src/review_cli.py": "d65591390b856a1fbee67ca11dceeb879f6527151f0f6f128ea2dcf2065c6709",
     "src/verify_results.py": "61d4eaee48fc6929fc49dff79947ce1b3ee9d7a9ea3716855cd17ad380c843ec",
     "src/verify_source_originals.py": "0c34f59e1fcf1d8de8a397c97f8ea3556c4eb038c1ad1c73de023797478bb5c0",
-    "tests/test_downloads.py": "220ab751704e932cf37d8b3abf18c2d52950cb3cd9fe0318aea766fca7bee4a6"
+    "tests/test_downloads.py": "02ca3813260c355f339b7440593ce8b721b4a13c80d09e7835ea9232354ae6db"
   },
   "raw_source_members_excluded": true,
   "unapproved_manuscripts_excluded": true,
