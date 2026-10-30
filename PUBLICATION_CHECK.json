@@ -1,11 +1,11 @@
 {
-  "timestamp_utc": "2026-10-30T22:04:19.537341+00:00",
+  "timestamp_utc": "2026-10-30T22:05:28.495326+00:00",
   "status": "PASS_BOUNDED_SCAN",
   "files_checked": 66,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
-    ".github/workflows/reproduce.yml": "e35377334621d83d1678b630d009badef52ccc0ada29293438e4430ababae8b9",
+    ".github/workflows/reproduce.yml": "47bbf471341f7f3375ce37895647ebfdbe3dd387cb459f0255d77e5a42a5db90",
     ".gitignore": "60df6be84bf52e59d66a0a2a46d4e1b963349c50e2b2648e7b41280d3c3bd82e",
     "DATA_RIGHTS.md": "e2c7fcf11542097af34e043653dee8afbce19cd0219b81831e4695905d066b49",
     "ENVIRONMENT.md": "5c9e5af787b8cd4663bd0a9d753102bdf56249ed5b6f429db93a54577411dde2",
