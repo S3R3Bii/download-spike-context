@@ -1,0 +1,17 @@
+{
+  "status": "PASS_SOURCE_BOUND_MANUSCRIPT",
+  "pages": 6,
+  "bound_measurements": 61,
+  "conditions": 272,
+  "manuscript_sha256": "acfea8e990c0f34753cc13892f3509d63d2539ff3c7a1eb9f8124720faa1e002",
+  "page_characters": [
+    1830,
+    2174,
+    1558,
+    1836,
+    1935,
+    2834
+  ],
+  "source_correction_explicit": true,
+  "rendering": "Recorded local Poppler visual review; CI checks identities and extracted text without compiling TeX."
+}

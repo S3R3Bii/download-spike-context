@@ -1,35 +1,39 @@
 {
-  "timestamp_utc": "2026-10-30T21:58:26.567600+00:00",
-  "version": "Development and authored exercise before final freeze",
-  "status": "INCOMPLETE_DEVELOPMENT_PASS_FINAL_PENDING",
+  "timestamp_utc": "2026-10-30T22:03:13.603468+00:00",
+  "version": "Complete local artifact before isolated replay and remote CI",
+  "status": "INCOMPLETE_FULL_CLONE_AND_RELEASE_PENDING",
   "grade": 3,
   "gates": {
-    "source": "pass_12_entities_8558_native_SQLite_conditions",
-    "privacy": "pending_staged_scan",
-    "separation": "pass_no_final_analytical_extraction",
-    "development": "pass_12991_independent_conditions_372_scorable",
-    "final": "unknown",
-    "replay": "unknown",
-    "release": "pending",
+    "source": "pass_8558_native_SQLite_conditions",
+    "privacy": "pending_scoped_staged_scan",
+    "separation": "pass_original_29_dependencies",
+    "development": "pass_12991_independent_conditions",
+    "final": "pass_12643_independent_conditions",
+    "replay": "pending_full_history_clones",
+    "release": "pending_remote_CI_tree_tag",
     "exercise": "pass_3_authored_examples",
-    "fixtures": "pass_19_methods"
+    "fixtures": "pass_21_methods",
+    "figures": "pass_378_values_864_coordinates_9_hashes_and_visual_inspection",
+    "manuscript": "pass_61_bindings_272_conditions_6_rendered_pages"
   },
   "review_budget": {
-    "round": 1,
+    "round": 3,
     "max_rounds": 3,
     "max_active_minutes": 45,
     "max_review_calls": 60,
-    "exact_accounting": "Not separately instrumented; no invented elapsed/call count"
+    "exact_accounting": "Not separately instrumented; no invented elapsed/call count",
+    "review_elapsed_and_calls": "Exact active-review/call accounting not separately instrumented; overall workflow began 2026-10-30T21:53:59Z. Wall elapsed is only an upper-bound workload proxy, not quota or billing."
   },
   "usage": {
     "source": "Codex get_usage_limits",
-    "observed_utc": "2026-10-30T21:54:30Z",
+    "observed_utc": "2026-10-30T22:00:01Z",
+    "bucket": "codex",
     "window_minutes": 10080,
     "used_percent": 52,
     "remaining_percent": 48,
     "reset_unix": 1793910839,
     "secondary": "unavailable",
-    "shared_account": true
+    "shared_account_not_task_usage": true
   },
   "source_evidence": {
     "status": "PASS_PRIVATE_NATIVE_SQLITE_PROJECTION",
@@ -41,7 +45,11 @@
   },
   "failures_retained": [
     "Collector whitespace gate rejected an extra blank EOF before its first commit; normalized without data changes.",
-    "Initial browser proof showed the reset creation form; preserved that image and captured a separate verified repository view."
+    "Initial browser proof showed the reset creation form; preserved that image and captured a separate verified repository view.",
+    "First figure axis wasted space; original figure/maps preserved and zero-based axis narrowed without data change.",
+    "Initial PDF had unbreakable slash/hash text; first source/PDF/log preserved and targeted wording/wrapping repaired.",
+    "Protocol/source-rights historical documents label publisher commit as a tree; separate API reads confirm actual tree and identical file blobs. Frozen bytes retained; explicit current correction changes no analytic inputs.",
+    "First compiler command had incorrect relative tool path and produced no PDF; corrected explicit path verified."
   ],
   "development_evidence": {
     "status": "PASS_INDEPENDENT_SQLITE_DECIMAL",
@@ -52,5 +60,67 @@
     "absolute_score_tolerance": 1e-10,
     "exact_flags": true
   },
-  "development_finding": "No flags at any of the three fixed thresholds on 372 development origins. No threshold adaptation."
+  "development_finding": "No flags at any of the three fixed thresholds on 372 development origins. No threshold adaptation.",
+  "criteria": {
+    "source": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "12 exact entities, 150 paired dates for all packages; independent native SQLite reconstruction",
+      "limitation": "Current aggregate vintage; inspected publisher code is not a historical deployment audit."
+    },
+    "analysis": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "All fixed settings retained; exact flags and Decimal score checks on development/final",
+      "limitation": "No true-anomaly labels, causal identification or operational benefit."
+    },
+    "separation": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Original 29-file manifest and prior development commit",
+      "limitation": "Final raw counters were already present; not blinded collection."
+    },
+    "exercise": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Three authored examples and 21 finite fixture methods",
+      "limitation": "Teaching input; no outgoing alert or deployment."
+    },
+    "presentation": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Three inspected source-bound figures and six source-bound rendered paper pages",
+      "limitation": "No accessibility conformance claim from visual inspection."
+    },
+    "privacy": {
+      "state": "unknown",
+      "grade": null,
+      "evidence": "Scoped staged scan pending"
+    },
+    "replay": {
+      "state": "unknown",
+      "grade": null,
+      "evidence": "Isolated full-history clones pending"
+    },
+    "release": {
+      "state": "unknown",
+      "grade": null,
+      "evidence": "Exact candidate/main Linux CI, tree, annotated tag and program metadata pending"
+    }
+  },
+  "final_evidence": {
+    "status": "PASS_INDEPENDENT_SQLITE_DECIMAL",
+    "phase": "final",
+    "conditions": 12643,
+    "scorable": 360,
+    "decimal_precision": 80,
+    "absolute_score_tolerance": 1e-10,
+    "exact_flags": true
+  },
+  "reviewed_files_sha256": {
+    "paper/main.tex": "61607d3015c5411a47ca8b3eed56a96e4a40a33eda3c89019302db97e9a64208",
+    "paper/manuscript.pdf": "acfea8e990c0f34753cc13892f3509d63d2539ff3c7a1eb9f8124720faa1e002",
+    "figures/value_map.json": "be3987d446772bedd2a9c9c37ecb96cb3a5f1fcc716d103810b3c13eae7ee6cd",
+    "SOURCE_REVISION_CLARIFICATION.md": "0fd3c32aa79ffe16d4f53d565d5b79c4a732924187ed800919c766804c2016e8"
+  }
 }

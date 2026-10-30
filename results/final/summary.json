@@ -1,0 +1,347 @@
+{
+  "scorable": 360,
+  "thresholds": {
+    "3": {
+      "both": 4,
+      "native_only": 0,
+      "filtered_only": 0,
+      "neither": 356,
+      "native": 4,
+      "filtered": 4,
+      "current_only": 4,
+      "changed": 0,
+      "changed_fraction": 0.0
+    },
+    "6": {
+      "both": 0,
+      "native_only": 0,
+      "filtered_only": 0,
+      "neither": 360,
+      "native": 0,
+      "filtered": 0,
+      "current_only": 0,
+      "changed": 0,
+      "changed_fraction": 0.0
+    },
+    "9": {
+      "both": 0,
+      "native_only": 0,
+      "filtered_only": 0,
+      "neither": 360,
+      "native": 0,
+      "filtered": 0,
+      "current_only": 0,
+      "changed": 0,
+      "changed_fraction": 0.0
+    }
+  },
+  "expected_origins": 360,
+  "unknown_origins": 0,
+  "by_package": {
+    "black": {
+      "scorable": 60,
+      "thresholds": {
+        "3": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 60,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "6": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 60,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "9": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 60,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        }
+      }
+    },
+    "flask": {
+      "scorable": 60,
+      "thresholds": {
+        "3": {
+          "both": 4,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 56,
+          "native": 4,
+          "filtered": 4,
+          "current_only": 4,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "6": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 60,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "9": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 60,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        }
+      }
+    },
+    "matplotlib": {
+      "scorable": 60,
+      "thresholds": {
+        "3": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 60,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "6": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 60,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "9": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 60,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        }
+      }
+    },
+    "requests": {
+      "scorable": 60,
+      "thresholds": {
+        "3": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 60,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "6": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 60,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "9": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 60,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        }
+      }
+    },
+    "rich": {
+      "scorable": 60,
+      "thresholds": {
+        "3": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 60,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "6": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 60,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "9": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 60,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        }
+      }
+    },
+    "urllib3": {
+      "scorable": 60,
+      "thresholds": {
+        "3": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 60,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "6": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 60,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "9": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 60,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        }
+      }
+    }
+  },
+  "equal_package_change_fraction": {
+    "3": 0.0,
+    "6": 0.0,
+    "9": 0.0
+  },
+  "largest_score_changes": [
+    {
+      "package": "flask",
+      "date": "2026-08-30",
+      "native_score": -7.057620672925958,
+      "filtered_score": -8.645921949196016,
+      "difference": 1.588301276270058
+    },
+    {
+      "package": "flask",
+      "date": "2026-08-31",
+      "native_score": -3.606668172210922,
+      "filtered_score": -4.0536966834348656,
+      "difference": 0.4470285112239436
+    },
+    {
+      "package": "flask",
+      "date": "2026-09-05",
+      "native_score": -2.346594683745085,
+      "filtered_score": -2.7503568193686014,
+      "difference": 0.40376213562351637
+    },
+    {
+      "package": "flask",
+      "date": "2026-09-04",
+      "native_score": -1.3280061819351707,
+      "filtered_score": -0.9538150010412589,
+      "difference": -0.3741911808939118
+    },
+    {
+      "package": "flask",
+      "date": "2026-09-03",
+      "native_score": -1.169514760931517,
+      "filtered_score": -0.8460241202400671,
+      "difference": -0.32349064069144995
+    },
+    {
+      "package": "flask",
+      "date": "2026-09-20",
+      "native_score": -5.8407182991054185,
+      "filtered_score": -5.55745275487963,
+      "difference": -0.2832655442257881
+    },
+    {
+      "package": "black",
+      "date": "2026-09-13",
+      "native_score": -5.236112436765887,
+      "filtered_score": -5.509986881804559,
+      "difference": 0.27387444503867187
+    },
+    {
+      "package": "black",
+      "date": "2026-10-13",
+      "native_score": 1.0023190782344216,
+      "filtered_score": 0.7379357025399358,
+      "difference": 0.2643833756944858
+    },
+    {
+      "package": "flask",
+      "date": "2026-10-04",
+      "native_score": -3.180854338622859,
+      "filtered_score": -2.9195839934108503,
+      "difference": -0.26127034521200887
+    },
+    {
+      "package": "black",
+      "date": "2026-10-06",
+      "native_score": 1.830204790094001,
+      "filtered_score": 1.5726601892984426,
+      "difference": 0.2575446007955584
+    }
+  ]
+}

@@ -1,0 +1,3134 @@
+[
+  {
+    "figure": "final_flags",
+    "axes": {
+      "xlim": [
+        -0.6,
+        2.6
+      ],
+      "ylim": [
+        0.0,
+        5.2
+      ]
+    },
+    "items": [
+      {
+        "id": "flags-native-3",
+        "kind": "flags",
+        "view": "native",
+        "threshold": 3,
+        "x": -0.17,
+        "width": 0.29,
+        "value": 4,
+        "display": "4"
+      },
+      {
+        "id": "flags-filtered-3",
+        "kind": "flags",
+        "view": "filtered",
+        "threshold": 3,
+        "x": 0.17,
+        "width": 0.29,
+        "value": 4,
+        "display": "4"
+      },
+      {
+        "id": "flags-native-6",
+        "kind": "flags",
+        "view": "native",
+        "threshold": 6,
+        "x": 0.83,
+        "width": 0.29,
+        "value": 0,
+        "display": "0"
+      },
+      {
+        "id": "flags-filtered-6",
+        "kind": "flags",
+        "view": "filtered",
+        "threshold": 6,
+        "x": 1.17,
+        "width": 0.29,
+        "value": 0,
+        "display": "0"
+      },
+      {
+        "id": "flags-native-9",
+        "kind": "flags",
+        "view": "native",
+        "threshold": 9,
+        "x": 1.83,
+        "width": 0.29,
+        "value": 0,
+        "display": "0"
+      },
+      {
+        "id": "flags-filtered-9",
+        "kind": "flags",
+        "view": "filtered",
+        "threshold": 9,
+        "x": 2.17,
+        "width": 0.29,
+        "value": 0,
+        "display": "0"
+      }
+    ],
+    "files": {
+      "figures/final_flags.pdf": "da9add9ad91d45c8dae76fab855b9cde30fb306cae12da1ee91938f5a8462a75",
+      "figures/final_flags.png": "ef33692c5fc6403b322a1d42a5a6d13ab7dc289a0c93d1adcb37edc00ccd3845",
+      "figures/final_flags.svg": "9cac703ed08125e1ffcd32bd5817ae0facb37a6b86c9a527ddfc76c72c6526e2"
+    }
+  },
+  {
+    "figure": "filter_accounting",
+    "axes": {
+      "xlim": [
+        0.0,
+        2.3
+      ],
+      "ylim": [
+        -0.7,
+        11.7
+      ]
+    },
+    "items": [
+      {
+        "id": "removed-black",
+        "kind": "removed",
+        "package": "black",
+        "y": 11,
+        "height": 0.63,
+        "value": 1.5118080150786,
+        "display": "1.51%",
+        "with_sum": 730465700,
+        "without_sum": 719422461
+      },
+      {
+        "id": "removed-click",
+        "kind": "removed",
+        "package": "click",
+        "y": 10,
+        "height": 0.63,
+        "value": 0.6078971090946806,
+        "display": "0.61%",
+        "with_sum": 4927805800,
+        "without_sum": 4897849811
+      },
+      {
+        "id": "removed-flask",
+        "kind": "removed",
+        "package": "flask",
+        "y": 9,
+        "height": 0.63,
+        "value": 1.651214095964084,
+        "display": "1.65%",
+        "with_sum": 923716315,
+        "without_sum": 908463781
+      },
+      {
+        "id": "removed-httpx",
+        "kind": "removed",
+        "package": "httpx",
+        "y": 8,
+        "height": 0.63,
+        "value": 0.25040632635121296,
+        "display": "0.25%",
+        "with_sum": 3659926302,
+        "without_sum": 3650761615
+      },
+      {
+        "id": "removed-matplotlib",
+        "kind": "removed",
+        "package": "matplotlib",
+        "y": 7,
+        "height": 0.63,
+        "value": 1.3144340170003361,
+        "display": "1.31%",
+        "with_sum": 1041455168,
+        "without_sum": 1027765927
+      },
+      {
+        "id": "removed-numpy",
+        "kind": "removed",
+        "package": "numpy",
+        "y": 6,
+        "height": 0.63,
+        "value": 0.768559399283317,
+        "display": "0.77%",
+        "with_sum": 5070918531,
+        "without_sum": 5031945510
+      },
+      {
+        "id": "removed-pandas",
+        "kind": "removed",
+        "package": "pandas",
+        "y": 5,
+        "height": 0.63,
+        "value": 0.675984610103727,
+        "display": "0.68%",
+        "with_sum": 3427747859,
+        "without_sum": 3404576811
+      },
+      {
+        "id": "removed-pytest",
+        "kind": "removed",
+        "package": "pytest",
+        "y": 4,
+        "height": 0.63,
+        "value": 1.001375699488204,
+        "display": "1.00%",
+        "with_sum": 4766373802,
+        "without_sum": 4718644493
+      },
+      {
+        "id": "removed-requests",
+        "kind": "removed",
+        "package": "requests",
+        "y": 3,
+        "height": 0.63,
+        "value": 0.5597760190131115,
+        "display": "0.56%",
+        "with_sum": 7615832503,
+        "without_sum": 7573200899
+      },
+      {
+        "id": "removed-rich",
+        "kind": "removed",
+        "package": "rich",
+        "y": 2,
+        "height": 0.63,
+        "value": 0.32631131025564375,
+        "display": "0.33%",
+        "with_sum": 2782165593,
+        "without_sum": 2773087072
+      },
+      {
+        "id": "removed-scipy",
+        "kind": "removed",
+        "package": "scipy",
+        "y": 1,
+        "height": 0.63,
+        "value": 1.8244143065568932,
+        "display": "1.82%",
+        "with_sum": 1915007182,
+        "without_sum": 1880069517
+      },
+      {
+        "id": "removed-urllib3",
+        "kind": "removed",
+        "package": "urllib3",
+        "y": 0,
+        "height": 0.63,
+        "value": 0.4739848517579406,
+        "display": "0.47%",
+        "with_sum": 8104976110,
+        "without_sum": 8066559751
+      }
+    ],
+    "files": {
+      "figures/filter_accounting.pdf": "a5485b4eaf668384235be8890214d7e323556eaf74482209c3810bc48d4c2ced",
+      "figures/filter_accounting.png": "d1513f2a708a358ba1a23672f6177442b95c6b3ac62640e1f22c6ae5ce8deb7f",
+      "figures/filter_accounting.svg": "9d9e1b3b2a4b4b63525db6841b00e04ec9fc0c5346e393a3e62b37aca07e4a4a"
+    }
+  },
+  {
+    "figure": "paired_scores",
+    "axes": {
+      "xlim": [
+        -10.0,
+        6.0
+      ],
+      "ylim": [
+        -10.0,
+        6.0
+      ]
+    },
+    "items": [
+      {
+        "id": "score-0",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-08-30",
+        "x": -5.999288625979687,
+        "value": -6.0913838608182855
+      },
+      {
+        "id": "score-1",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-08-31",
+        "x": -2.7647654240016424,
+        "value": -2.97138030373674
+      },
+      {
+        "id": "score-2",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-01",
+        "x": -1.2932763328128674,
+        "value": -1.2711733954917837
+      },
+      {
+        "id": "score-3",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-02",
+        "x": -1.276716263862159,
+        "value": -1.1631152299298737
+      },
+      {
+        "id": "score-4",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-03",
+        "x": -0.8431165712273108,
+        "value": -0.8477570158823045
+      },
+      {
+        "id": "score-5",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-04",
+        "x": -1.323295376029493,
+        "value": -1.2420247634493546
+      },
+      {
+        "id": "score-6",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-05",
+        "x": -3.526626806540607,
+        "value": -3.4911152036712747
+      },
+      {
+        "id": "score-7",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-06",
+        "x": -2.424411725076011,
+        "value": -2.515797240523054
+      },
+      {
+        "id": "score-8",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-07",
+        "x": -0.5330286606201481,
+        "value": -0.554299186234785
+      },
+      {
+        "id": "score-9",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-08",
+        "x": 0.2848137821753432,
+        "value": 0.2999830488406836
+      },
+      {
+        "id": "score-10",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-09",
+        "x": 0.4241222316002461,
+        "value": 0.4224120559285005
+      },
+      {
+        "id": "score-11",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-10",
+        "x": 0.38759519192618586,
+        "value": 0.3949983211834434
+      },
+      {
+        "id": "score-12",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-11",
+        "x": -0.4944514358630394,
+        "value": -0.5072477606312981
+      },
+      {
+        "id": "score-13",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-12",
+        "x": -4.739612691502704,
+        "value": -4.985931455846979
+      },
+      {
+        "id": "score-14",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-13",
+        "x": -5.236112436765887,
+        "value": -5.509986881804559
+      },
+      {
+        "id": "score-15",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-14",
+        "x": -0.32057304718902074,
+        "value": -0.31548193237280336
+      },
+      {
+        "id": "score-16",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-15",
+        "x": 0.4822582244710521,
+        "value": 0.5244565812834533
+      },
+      {
+        "id": "score-17",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-16",
+        "x": 0.8080921090303724,
+        "value": 0.820384643497095
+      },
+      {
+        "id": "score-18",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-17",
+        "x": 0.5358379177781253,
+        "value": 0.5464881017786831
+      },
+      {
+        "id": "score-19",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-18",
+        "x": 0.007109266230802547,
+        "value": 0.028968865594674043
+      },
+      {
+        "id": "score-20",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-19",
+        "x": -5.164780246090999,
+        "value": -5.161057523373138
+      },
+      {
+        "id": "score-21",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-20",
+        "x": -5.4012441626367576,
+        "value": -5.341114775087831
+      },
+      {
+        "id": "score-22",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-21",
+        "x": -0.7039828222606885,
+        "value": -0.7030853306261672
+      },
+      {
+        "id": "score-23",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-22",
+        "x": 0.2032372162892516,
+        "value": 0.17849843668183746
+      },
+      {
+        "id": "score-24",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-23",
+        "x": 0.8695943187971813,
+        "value": 0.8055041040457891
+      },
+      {
+        "id": "score-25",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-24",
+        "x": 1.292710270393509,
+        "value": 1.2411748475752984
+      },
+      {
+        "id": "score-26",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-25",
+        "x": 0.2735156856887906,
+        "value": 0.2844384731500796
+      },
+      {
+        "id": "score-27",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-26",
+        "x": -4.483631339340944,
+        "value": -4.41276411254679
+      },
+      {
+        "id": "score-28",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-27",
+        "x": -4.428914336471764,
+        "value": -4.384175454352564
+      },
+      {
+        "id": "score-29",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-28",
+        "x": 0.2883347223731939,
+        "value": 0.2791820276058448
+      },
+      {
+        "id": "score-30",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-29",
+        "x": 1.0024772686413996,
+        "value": 0.9908008503196418
+      },
+      {
+        "id": "score-31",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-09-30",
+        "x": 1.1821013167225303,
+        "value": 1.154028349967362
+      },
+      {
+        "id": "score-32",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-01",
+        "x": 1.4462138054711882,
+        "value": 1.429610062703057
+      },
+      {
+        "id": "score-33",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-02",
+        "x": 0.04197844049406743,
+        "value": 0.0314998846415171
+      },
+      {
+        "id": "score-34",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-03",
+        "x": -4.1503880729887,
+        "value": -4.160236683641091
+      },
+      {
+        "id": "score-35",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-04",
+        "x": -4.280282992003618,
+        "value": -4.338705872504426
+      },
+      {
+        "id": "score-36",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-05",
+        "x": 0.4862751608794912,
+        "value": 0.4325992203882461
+      },
+      {
+        "id": "score-37",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-06",
+        "x": 1.830204790094001,
+        "value": 1.5726601892984426
+      },
+      {
+        "id": "score-38",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-07",
+        "x": 1.3694148996279765,
+        "value": 1.3005743578502305
+      },
+      {
+        "id": "score-39",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-08",
+        "x": 1.6520763014199424,
+        "value": 1.5765160387938515
+      },
+      {
+        "id": "score-40",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-09",
+        "x": 0.8949010281040487,
+        "value": 0.8426959996987904
+      },
+      {
+        "id": "score-41",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-10",
+        "x": -4.628393903734995,
+        "value": -4.7456439537108785
+      },
+      {
+        "id": "score-42",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-11",
+        "x": -5.3826265650569205,
+        "value": -5.457011028982972
+      },
+      {
+        "id": "score-43",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-12",
+        "x": -0.4582386670398009,
+        "value": -0.5792893046270287
+      },
+      {
+        "id": "score-44",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-13",
+        "x": 1.0023190782344216,
+        "value": 0.7379357025399358
+      },
+      {
+        "id": "score-45",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-14",
+        "x": 1.466971726369539,
+        "value": 1.4521717953070912
+      },
+      {
+        "id": "score-46",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-15",
+        "x": 1.529791171660349,
+        "value": 1.5428300002700388
+      },
+      {
+        "id": "score-47",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-16",
+        "x": 0.2675149955689668,
+        "value": 0.26866901691412215
+      },
+      {
+        "id": "score-48",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-17",
+        "x": -4.7207138237247595,
+        "value": -4.886003408044802
+      },
+      {
+        "id": "score-49",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-18",
+        "x": -4.7184655848881825,
+        "value": -4.87275602483487
+      },
+      {
+        "id": "score-50",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-19",
+        "x": 0.34044256657271443,
+        "value": 0.09695669261551523
+      },
+      {
+        "id": "score-51",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-20",
+        "x": 0.5332284284616229,
+        "value": 0.6023218321403689
+      },
+      {
+        "id": "score-52",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-21",
+        "x": 0.6075903980278419,
+        "value": 0.6665913610907737
+      },
+      {
+        "id": "score-53",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-22",
+        "x": 0.9739653263675052,
+        "value": 1.0466883791052162
+      },
+      {
+        "id": "score-54",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-23",
+        "x": 0.5372972894364914,
+        "value": 0.6434841570371042
+      },
+      {
+        "id": "score-55",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-24",
+        "x": -5.726801490221849,
+        "value": -5.593766680013292
+      },
+      {
+        "id": "score-56",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-25",
+        "x": -5.32265467587397,
+        "value": -5.301116944734829
+      },
+      {
+        "id": "score-57",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-26",
+        "x": 0.39101590477551795,
+        "value": 0.1771263860695349
+      },
+      {
+        "id": "score-58",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-27",
+        "x": 0.018832981328174014,
+        "value": -0.029008596630184513
+      },
+      {
+        "id": "score-59",
+        "kind": "score",
+        "package": "black",
+        "date": "2026-10-28",
+        "x": 0.5363117000155526,
+        "value": 0.6824041034705353
+      },
+      {
+        "id": "score-60",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-08-30",
+        "x": -7.057620672925958,
+        "value": -8.645921949196016
+      },
+      {
+        "id": "score-61",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-08-31",
+        "x": -3.606668172210922,
+        "value": -4.0536966834348656
+      },
+      {
+        "id": "score-62",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-01",
+        "x": -2.059476058141412,
+        "value": -2.283448547841076
+      },
+      {
+        "id": "score-63",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-02",
+        "x": -1.4399586882598088,
+        "value": -1.3360707488350543
+      },
+      {
+        "id": "score-64",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-03",
+        "x": -1.169514760931517,
+        "value": -0.8460241202400671
+      },
+      {
+        "id": "score-65",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-04",
+        "x": -1.3280061819351707,
+        "value": -0.9538150010412589
+      },
+      {
+        "id": "score-66",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-05",
+        "x": -2.346594683745085,
+        "value": -2.7503568193686014
+      },
+      {
+        "id": "score-67",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-06",
+        "x": -2.5299540927513036,
+        "value": -2.3948411482016487
+      },
+      {
+        "id": "score-68",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-07",
+        "x": -0.7570530570929346,
+        "value": -0.7328643836732744
+      },
+      {
+        "id": "score-69",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-08",
+        "x": 0.07923189100479916,
+        "value": 0.12490800528508
+      },
+      {
+        "id": "score-70",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-09",
+        "x": 0.08545440748517139,
+        "value": 0.1308618144834292
+      },
+      {
+        "id": "score-71",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-10",
+        "x": -0.030965406820154487,
+        "value": 0.04460789000862593
+      },
+      {
+        "id": "score-72",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-11",
+        "x": -0.8196438978461922,
+        "value": -0.6795455063702072
+      },
+      {
+        "id": "score-73",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-12",
+        "x": -5.560525463150494,
+        "value": -5.346745847091352
+      },
+      {
+        "id": "score-74",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-13",
+        "x": -6.474519768885738,
+        "value": -6.305483368296709
+      },
+      {
+        "id": "score-75",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-14",
+        "x": -0.5798482468973197,
+        "value": -0.38939466860301813
+      },
+      {
+        "id": "score-76",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-15",
+        "x": 0.4429897579963793,
+        "value": 0.5290253135217959
+      },
+      {
+        "id": "score-77",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-16",
+        "x": 0.1355704401806257,
+        "value": 0.29042260548900245
+      },
+      {
+        "id": "score-78",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-17",
+        "x": -0.12531346521811315,
+        "value": 0.03280770490317053
+      },
+      {
+        "id": "score-79",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-18",
+        "x": -0.6850335368316784,
+        "value": -0.6279350274897766
+      },
+      {
+        "id": "score-80",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-19",
+        "x": -5.537695837029624,
+        "value": -5.342261044014727
+      },
+      {
+        "id": "score-81",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-20",
+        "x": -5.8407182991054185,
+        "value": -5.55745275487963
+      },
+      {
+        "id": "score-82",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-21",
+        "x": -0.35652512388171687,
+        "value": -0.21279188704342644
+      },
+      {
+        "id": "score-83",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-22",
+        "x": 0.9771768092785393,
+        "value": 1.02099502266773
+      },
+      {
+        "id": "score-84",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-23",
+        "x": 1.0501561468333875,
+        "value": 1.078666151283585
+      },
+      {
+        "id": "score-85",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-24",
+        "x": 1.0001880918798038,
+        "value": 1.062796007989597
+      },
+      {
+        "id": "score-86",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-25",
+        "x": 0.27308392108220225,
+        "value": 0.32898611558865276
+      },
+      {
+        "id": "score-87",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-26",
+        "x": -4.434997109588356,
+        "value": -4.459971393073772
+      },
+      {
+        "id": "score-88",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-27",
+        "x": -3.4532487115637944,
+        "value": -3.463878706352326
+      },
+      {
+        "id": "score-89",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-28",
+        "x": 1.9507250642545553,
+        "value": 2.0398041760404197
+      },
+      {
+        "id": "score-90",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-29",
+        "x": 2.307960094838002,
+        "value": 2.3146576270318953
+      },
+      {
+        "id": "score-91",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-09-30",
+        "x": 3.1248111900353948,
+        "value": 3.1417705776912896
+      },
+      {
+        "id": "score-92",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-01",
+        "x": 3.3470410395037042,
+        "value": 3.346371494554159
+      },
+      {
+        "id": "score-93",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-02",
+        "x": 2.263206720926386,
+        "value": 2.4467700143962645
+      },
+      {
+        "id": "score-94",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-03",
+        "x": -1.9934498019611822,
+        "value": -1.8156829446769949
+      },
+      {
+        "id": "score-95",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-04",
+        "x": -3.180854338622859,
+        "value": -2.9195839934108503
+      },
+      {
+        "id": "score-96",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-05",
+        "x": 0.954055060555831,
+        "value": 0.8910482555758302
+      },
+      {
+        "id": "score-97",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-06",
+        "x": 2.6007813767186683,
+        "value": 2.646433076407533
+      },
+      {
+        "id": "score-98",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-07",
+        "x": 2.416315722776833,
+        "value": 2.3708050525105793
+      },
+      {
+        "id": "score-99",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-08",
+        "x": 2.4642964584951135,
+        "value": 2.4302902846952086
+      },
+      {
+        "id": "score-100",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-09",
+        "x": 2.4016080855194146,
+        "value": 2.378383078670218
+      },
+      {
+        "id": "score-101",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-10",
+        "x": -0.8531550071640382,
+        "value": -0.8056897927007123
+      },
+      {
+        "id": "score-102",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-11",
+        "x": -1.2064322197364417,
+        "value": -1.1537174654649431
+      },
+      {
+        "id": "score-103",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-12",
+        "x": 0.8727990978498925,
+        "value": 0.9089608040585486
+      },
+      {
+        "id": "score-104",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-13",
+        "x": 1.2188305748911838,
+        "value": 1.244672991030277
+      },
+      {
+        "id": "score-105",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-14",
+        "x": 1.2237673267745275,
+        "value": 1.2168296592693786
+      },
+      {
+        "id": "score-106",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-15",
+        "x": 1.1988284322023377,
+        "value": 1.2006880437295233
+      },
+      {
+        "id": "score-107",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-16",
+        "x": 0.804588801254308,
+        "value": 0.8004394492963921
+      },
+      {
+        "id": "score-108",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-17",
+        "x": -1.6075298542231737,
+        "value": -1.5908977276045018
+      },
+      {
+        "id": "score-109",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-18",
+        "x": -2.3832479255948793,
+        "value": -2.364211982941821
+      },
+      {
+        "id": "score-110",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-19",
+        "x": 0.614061276427005,
+        "value": 0.6115518667111999
+      },
+      {
+        "id": "score-111",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-20",
+        "x": 0.968680200711057,
+        "value": 0.9157142770957901
+      },
+      {
+        "id": "score-112",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-21",
+        "x": 1.1816298926271995,
+        "value": 1.1786281997643433
+      },
+      {
+        "id": "score-113",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-22",
+        "x": 1.1640579073258488,
+        "value": 1.142995650575453
+      },
+      {
+        "id": "score-114",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-23",
+        "x": 0.4249225318470451,
+        "value": 0.41499096933762303
+      },
+      {
+        "id": "score-115",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-24",
+        "x": -3.853744848022096,
+        "value": -3.8636655854327806
+      },
+      {
+        "id": "score-116",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-25",
+        "x": -3.4320961281673945,
+        "value": -3.45179847657592
+      },
+      {
+        "id": "score-117",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-26",
+        "x": 0.7057454765535986,
+        "value": 0.6899621565956515
+      },
+      {
+        "id": "score-118",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-27",
+        "x": 3.165153858903018,
+        "value": 3.1785409324232994
+      },
+      {
+        "id": "score-119",
+        "kind": "score",
+        "package": "flask",
+        "date": "2026-10-28",
+        "x": 4.351955014647988,
+        "value": 4.367404349859321
+      },
+      {
+        "id": "score-120",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-08-30",
+        "x": -4.187497610306872,
+        "value": -4.1712538517711595
+      },
+      {
+        "id": "score-121",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-08-31",
+        "x": -1.4086262179170024,
+        "value": -1.4123877133873308
+      },
+      {
+        "id": "score-122",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-01",
+        "x": -0.7463664095153991,
+        "value": -0.7469045678150783
+      },
+      {
+        "id": "score-123",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-02",
+        "x": -0.7438089865383263,
+        "value": -0.7457115910590867
+      },
+      {
+        "id": "score-124",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-03",
+        "x": -0.21885208902766679,
+        "value": -0.20960434144046677
+      },
+      {
+        "id": "score-125",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-04",
+        "x": -0.6524166670749718,
+        "value": -0.6472320990105185
+      },
+      {
+        "id": "score-126",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-05",
+        "x": -2.4998983106052814,
+        "value": -2.7409840918406347
+      },
+      {
+        "id": "score-127",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-06",
+        "x": -2.1427955592769523,
+        "value": -2.388069043931674
+      },
+      {
+        "id": "score-128",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-07",
+        "x": -0.7933752675710031,
+        "value": -0.8802158413611297
+      },
+      {
+        "id": "score-129",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-08",
+        "x": 0.3324693784998919,
+        "value": 0.2811180927959082
+      },
+      {
+        "id": "score-130",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-09",
+        "x": 0.36369380865420503,
+        "value": 0.32707529615662245
+      },
+      {
+        "id": "score-131",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-10",
+        "x": 0.7828204219936961,
+        "value": 0.7739853206092925
+      },
+      {
+        "id": "score-132",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-11",
+        "x": 0.38307333524292275,
+        "value": 0.3810314756232276
+      },
+      {
+        "id": "score-133",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-12",
+        "x": -4.483064773949721,
+        "value": -4.506753856281804
+      },
+      {
+        "id": "score-134",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-13",
+        "x": -5.329993741311618,
+        "value": -5.238174507964407
+      },
+      {
+        "id": "score-135",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-14",
+        "x": -0.08825839949147812,
+        "value": -0.08602569657777642
+      },
+      {
+        "id": "score-136",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-15",
+        "x": 0.9438730454212418,
+        "value": 0.973355097865447
+      },
+      {
+        "id": "score-137",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-16",
+        "x": 0.7396668988368127,
+        "value": 0.7870236002334607
+      },
+      {
+        "id": "score-138",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-17",
+        "x": 0.7805753861308595,
+        "value": 0.8181222402055432
+      },
+      {
+        "id": "score-139",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-18",
+        "x": 0.3517561352006382,
+        "value": 0.3952517791074328
+      },
+      {
+        "id": "score-140",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-19",
+        "x": -3.640633142519416,
+        "value": -3.5939147875194877
+      },
+      {
+        "id": "score-141",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-20",
+        "x": -5.0669501919240645,
+        "value": -5.0330803680752645
+      },
+      {
+        "id": "score-142",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-21",
+        "x": -0.28998352240221204,
+        "value": -0.28456194883870434
+      },
+      {
+        "id": "score-143",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-22",
+        "x": 0.33970602012547224,
+        "value": 0.33838425174955333
+      },
+      {
+        "id": "score-144",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-23",
+        "x": 0.9073461228600473,
+        "value": 0.8787968538095831
+      },
+      {
+        "id": "score-145",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-24",
+        "x": 0.7000277793481224,
+        "value": 0.7196800538661208
+      },
+      {
+        "id": "score-146",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-25",
+        "x": -0.3758524172042321,
+        "value": -0.3626118823840052
+      },
+      {
+        "id": "score-147",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-26",
+        "x": -4.169490559301856,
+        "value": -4.1267024213197345
+      },
+      {
+        "id": "score-148",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-27",
+        "x": -4.560463877509839,
+        "value": -4.524626137189305
+      },
+      {
+        "id": "score-149",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-28",
+        "x": 0.3609878680322609,
+        "value": 0.380320413457671
+      },
+      {
+        "id": "score-150",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-29",
+        "x": 1.230317598734274,
+        "value": 1.2230113918301022
+      },
+      {
+        "id": "score-151",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-09-30",
+        "x": 0.9872412329007574,
+        "value": 0.9729760020224276
+      },
+      {
+        "id": "score-152",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-01",
+        "x": 1.083395605060229,
+        "value": 1.0350705309210184
+      },
+      {
+        "id": "score-153",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-02",
+        "x": 0.950760463640421,
+        "value": 0.9440378411188455
+      },
+      {
+        "id": "score-154",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-03",
+        "x": -3.242413362977423,
+        "value": -3.23859280745884
+      },
+      {
+        "id": "score-155",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-04",
+        "x": -4.287300840304429,
+        "value": -4.294116604259326
+      },
+      {
+        "id": "score-156",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-05",
+        "x": -0.181386603296243,
+        "value": -0.21499984679357098
+      },
+      {
+        "id": "score-157",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-06",
+        "x": 0.8472427550326245,
+        "value": 0.791020467813901
+      },
+      {
+        "id": "score-158",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-07",
+        "x": 0.6125156429968648,
+        "value": 0.5866555279664176
+      },
+      {
+        "id": "score-159",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-08",
+        "x": 0.735250254485198,
+        "value": 0.7272851251195611
+      },
+      {
+        "id": "score-160",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-09",
+        "x": 0.8062282294081413,
+        "value": 0.7877045720990772
+      },
+      {
+        "id": "score-161",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-10",
+        "x": -2.9651274311744658,
+        "value": -2.972277522598059
+      },
+      {
+        "id": "score-162",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-11",
+        "x": -3.922474250648964,
+        "value": -3.925604429604981
+      },
+      {
+        "id": "score-163",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-12",
+        "x": 0.5855270549840519,
+        "value": 0.5618272443518713
+      },
+      {
+        "id": "score-164",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-13",
+        "x": 1.5804255863831607,
+        "value": 1.579186984676788
+      },
+      {
+        "id": "score-165",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-14",
+        "x": 1.6289317466648257,
+        "value": 1.6331708768452557
+      },
+      {
+        "id": "score-166",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-15",
+        "x": 1.2940889981027048,
+        "value": 1.2435020391207097
+      },
+      {
+        "id": "score-167",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-16",
+        "x": 0.5225281607290988,
+        "value": 0.4631535711168766
+      },
+      {
+        "id": "score-168",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-17",
+        "x": -3.9581376307626037,
+        "value": -3.966591296173423
+      },
+      {
+        "id": "score-169",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-18",
+        "x": -4.539116784574855,
+        "value": -4.528967933792085
+      },
+      {
+        "id": "score-170",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-19",
+        "x": 0.6902225296193976,
+        "value": 0.7078184501330753
+      },
+      {
+        "id": "score-171",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-20",
+        "x": 1.0022942707303883,
+        "value": 1.0329751976060564
+      },
+      {
+        "id": "score-172",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-21",
+        "x": 0.8441664225142986,
+        "value": 0.8677050807841091
+      },
+      {
+        "id": "score-173",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-22",
+        "x": 1.0758585508079754,
+        "value": 1.0841204261870985
+      },
+      {
+        "id": "score-174",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-23",
+        "x": 0.7333513663230917,
+        "value": 0.7352795824984604
+      },
+      {
+        "id": "score-175",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-24",
+        "x": -3.9571528199016726,
+        "value": -3.9645564043603443
+      },
+      {
+        "id": "score-176",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-25",
+        "x": -4.26437649906207,
+        "value": -4.274165172873925
+      },
+      {
+        "id": "score-177",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-26",
+        "x": 0.5968302366388301,
+        "value": 0.5978885676039347
+      },
+      {
+        "id": "score-178",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-27",
+        "x": 1.6521960047860418,
+        "value": 1.6603510469391125
+      },
+      {
+        "id": "score-179",
+        "kind": "score",
+        "package": "matplotlib",
+        "date": "2026-10-28",
+        "x": 2.0511348128489892,
+        "value": 2.0627018398054275
+      },
+      {
+        "id": "score-180",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-08-30",
+        "x": -8.903950572859785,
+        "value": -8.855453438988974
+      },
+      {
+        "id": "score-181",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-08-31",
+        "x": -4.719564869591331,
+        "value": -4.660178917380833
+      },
+      {
+        "id": "score-182",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-01",
+        "x": -2.948804112224769,
+        "value": -2.9056956700030185
+      },
+      {
+        "id": "score-183",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-02",
+        "x": -0.9554898599983023,
+        "value": -0.9406761007064267
+      },
+      {
+        "id": "score-184",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-03",
+        "x": -0.38409688891022636,
+        "value": -0.36993700649151523
+      },
+      {
+        "id": "score-185",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-04",
+        "x": -0.7256998950342363,
+        "value": -0.7308849656509825
+      },
+      {
+        "id": "score-186",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-05",
+        "x": -2.4460102555036074,
+        "value": -2.4686836939419714
+      },
+      {
+        "id": "score-187",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-06",
+        "x": -2.2269650117501687,
+        "value": -2.233010292397172
+      },
+      {
+        "id": "score-188",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-07",
+        "x": -0.7977913377781806,
+        "value": -0.8196421607556472
+      },
+      {
+        "id": "score-189",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-08",
+        "x": 0.0404971268594767,
+        "value": 0.03303189088370553
+      },
+      {
+        "id": "score-190",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-09",
+        "x": -0.07890714683909543,
+        "value": -0.07530564835879204
+      },
+      {
+        "id": "score-191",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-10",
+        "x": 0.06761727044815136,
+        "value": 0.07272651328508817
+      },
+      {
+        "id": "score-192",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-11",
+        "x": -0.48232379821566695,
+        "value": -0.5008974068897842
+      },
+      {
+        "id": "score-193",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-12",
+        "x": -4.434386711261347,
+        "value": -4.4256598976699735
+      },
+      {
+        "id": "score-194",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-13",
+        "x": -4.831131745421509,
+        "value": -4.8073078660191015
+      },
+      {
+        "id": "score-195",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-14",
+        "x": -0.202157094230732,
+        "value": -0.22518420524108765
+      },
+      {
+        "id": "score-196",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-15",
+        "x": 0.6102320554176544,
+        "value": 0.6100926974057754
+      },
+      {
+        "id": "score-197",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-16",
+        "x": 0.37354611003880933,
+        "value": 0.39027869891434364
+      },
+      {
+        "id": "score-198",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-17",
+        "x": 0.4176471585311248,
+        "value": 0.436527880172477
+      },
+      {
+        "id": "score-199",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-18",
+        "x": 0.18394259289365777,
+        "value": 0.2074809259099908
+      },
+      {
+        "id": "score-200",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-19",
+        "x": -3.7464772707526706,
+        "value": -3.7113010037817062
+      },
+      {
+        "id": "score-201",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-20",
+        "x": -4.344906768257708,
+        "value": -4.312051145675433
+      },
+      {
+        "id": "score-202",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-21",
+        "x": 0.047769336998655376,
+        "value": 0.09052775440927974
+      },
+      {
+        "id": "score-203",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-22",
+        "x": 0.6418283607746034,
+        "value": 0.6797971928727975
+      },
+      {
+        "id": "score-204",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-23",
+        "x": 0.8964453702236597,
+        "value": 0.9276083720326866
+      },
+      {
+        "id": "score-205",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-24",
+        "x": 0.9355555333247523,
+        "value": 0.9754436887310192
+      },
+      {
+        "id": "score-206",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-25",
+        "x": 0.01814268713062006,
+        "value": 0.030853461677544658
+      },
+      {
+        "id": "score-207",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-26",
+        "x": -3.773644486986285,
+        "value": -3.7682199901936286
+      },
+      {
+        "id": "score-208",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-27",
+        "x": -3.4567829433440878,
+        "value": -3.4706364578348214
+      },
+      {
+        "id": "score-209",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-28",
+        "x": 0.6785091060526227,
+        "value": 0.6722306238671294
+      },
+      {
+        "id": "score-210",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-29",
+        "x": 1.4020080665648038,
+        "value": 1.3984528597576684
+      },
+      {
+        "id": "score-211",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-09-30",
+        "x": 1.4083445332258648,
+        "value": 1.4010160878627786
+      },
+      {
+        "id": "score-212",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-01",
+        "x": 1.37713729436161,
+        "value": 1.365443635923853
+      },
+      {
+        "id": "score-213",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-02",
+        "x": 0.7169756775579827,
+        "value": 0.6979014572746678
+      },
+      {
+        "id": "score-214",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-03",
+        "x": -3.1643363129904145,
+        "value": -3.154542438134129
+      },
+      {
+        "id": "score-215",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-04",
+        "x": -3.413107884236659,
+        "value": -3.401612143537456
+      },
+      {
+        "id": "score-216",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-05",
+        "x": 0.44741410117733693,
+        "value": 0.4475245265767569
+      },
+      {
+        "id": "score-217",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-06",
+        "x": 1.3700644583608579,
+        "value": 1.3747143620287616
+      },
+      {
+        "id": "score-218",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-07",
+        "x": 1.0974618268362946,
+        "value": 1.1039972874802828
+      },
+      {
+        "id": "score-219",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-08",
+        "x": 1.3817634472820473,
+        "value": 1.383197762605377
+      },
+      {
+        "id": "score-220",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-09",
+        "x": 0.9627944455570159,
+        "value": 0.9668267688662979
+      },
+      {
+        "id": "score-221",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-10",
+        "x": -3.1260276268367093,
+        "value": -3.120090991511333
+      },
+      {
+        "id": "score-222",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-11",
+        "x": -3.2392028096919745,
+        "value": -3.2293086497808687
+      },
+      {
+        "id": "score-223",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-12",
+        "x": 0.2277492559427685,
+        "value": 0.2324038177455634
+      },
+      {
+        "id": "score-224",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-13",
+        "x": 1.233606846837496,
+        "value": 1.2387862077788725
+      },
+      {
+        "id": "score-225",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-14",
+        "x": 1.6063530427785722,
+        "value": 1.602280493479249
+      },
+      {
+        "id": "score-226",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-15",
+        "x": 1.4519370982114665,
+        "value": 1.444471646274792
+      },
+      {
+        "id": "score-227",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-16",
+        "x": 0.7075227397437445,
+        "value": 0.7024206160324908
+      },
+      {
+        "id": "score-228",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-17",
+        "x": -3.215539447853928,
+        "value": -3.2061738385458938
+      },
+      {
+        "id": "score-229",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-18",
+        "x": -3.6450908532344073,
+        "value": -3.631284698513575
+      },
+      {
+        "id": "score-230",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-19",
+        "x": 0.7390652312193069,
+        "value": 0.7488599619336611
+      },
+      {
+        "id": "score-231",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-20",
+        "x": 1.2975565160027003,
+        "value": 1.288333769451775
+      },
+      {
+        "id": "score-232",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-21",
+        "x": 1.3166992067399264,
+        "value": 1.3079506526923979
+      },
+      {
+        "id": "score-233",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-22",
+        "x": 1.1310423859363183,
+        "value": 1.1188369848421331
+      },
+      {
+        "id": "score-234",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-23",
+        "x": 0.514314449043205,
+        "value": 0.5044969151595069
+      },
+      {
+        "id": "score-235",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-24",
+        "x": -3.5876659964863222,
+        "value": -3.5942987924296332
+      },
+      {
+        "id": "score-236",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-25",
+        "x": -3.505328526171567,
+        "value": -3.502270359750881
+      },
+      {
+        "id": "score-237",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-26",
+        "x": 0.5325857916373167,
+        "value": 0.5350426798232988
+      },
+      {
+        "id": "score-238",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-27",
+        "x": 1.229193368843724,
+        "value": 1.230476902396056
+      },
+      {
+        "id": "score-239",
+        "kind": "score",
+        "package": "requests",
+        "date": "2026-10-28",
+        "x": 1.9206219510166989,
+        "value": 1.9230586958647322
+      },
+      {
+        "id": "score-240",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-08-30",
+        "x": -6.761117904927946,
+        "value": -6.729068934876269
+      },
+      {
+        "id": "score-241",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-08-31",
+        "x": -3.09044240262488,
+        "value": -3.0798522796607166
+      },
+      {
+        "id": "score-242",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-01",
+        "x": -1.2884448452292736,
+        "value": -1.2928366106417137
+      },
+      {
+        "id": "score-243",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-02",
+        "x": -0.4979154445439832,
+        "value": -0.5040697968757595
+      },
+      {
+        "id": "score-244",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-03",
+        "x": 0.10647297047018574,
+        "value": 0.10388244536941156
+      },
+      {
+        "id": "score-245",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-04",
+        "x": -0.3290901934773166,
+        "value": -0.3480694670973212
+      },
+      {
+        "id": "score-246",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-05",
+        "x": -3.3414595186251996,
+        "value": -3.3595757868570963
+      },
+      {
+        "id": "score-247",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-06",
+        "x": -2.503930490156955,
+        "value": -2.5309349817565194
+      },
+      {
+        "id": "score-248",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-07",
+        "x": -0.5516944846357852,
+        "value": -0.5557795894125637
+      },
+      {
+        "id": "score-249",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-08",
+        "x": 0.5597916526316649,
+        "value": 0.5554277182607166
+      },
+      {
+        "id": "score-250",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-09",
+        "x": 0.7484852079222892,
+        "value": 0.7422149686797838
+      },
+      {
+        "id": "score-251",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-10",
+        "x": 0.8906139065190205,
+        "value": 0.8882277368785607
+      },
+      {
+        "id": "score-252",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-11",
+        "x": 0.31964506044976987,
+        "value": 0.3100602868232192
+      },
+      {
+        "id": "score-253",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-12",
+        "x": -4.806174953389899,
+        "value": -4.797020485479848
+      },
+      {
+        "id": "score-254",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-13",
+        "x": -5.007203520601463,
+        "value": -4.993983488815827
+      },
+      {
+        "id": "score-255",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-14",
+        "x": 0.07468728032461253,
+        "value": 0.05547699740870605
+      },
+      {
+        "id": "score-256",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-15",
+        "x": 0.707095159524614,
+        "value": 0.7165033556222744
+      },
+      {
+        "id": "score-257",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-16",
+        "x": 0.5951252088916092,
+        "value": 0.6039725458218825
+      },
+      {
+        "id": "score-258",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-17",
+        "x": 0.7599576268429331,
+        "value": 0.7704914022495402
+      },
+      {
+        "id": "score-259",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-18",
+        "x": 0.5663351784393456,
+        "value": 0.578047868632936
+      },
+      {
+        "id": "score-260",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-19",
+        "x": -4.2044952335225005,
+        "value": -4.187690273645721
+      },
+      {
+        "id": "score-261",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-20",
+        "x": -5.1066934321660895,
+        "value": -5.088568722986366
+      },
+      {
+        "id": "score-262",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-21",
+        "x": -0.040028036383148446,
+        "value": -0.028161175505623248
+      },
+      {
+        "id": "score-263",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-22",
+        "x": 0.6237737714026181,
+        "value": 0.627638331679492
+      },
+      {
+        "id": "score-264",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-23",
+        "x": 1.05344109953041,
+        "value": 1.0538332475876544
+      },
+      {
+        "id": "score-265",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-24",
+        "x": 1.2156253556984709,
+        "value": 1.2321424403251058
+      },
+      {
+        "id": "score-266",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-25",
+        "x": 0.08340128928981727,
+        "value": 0.11176178220722477
+      },
+      {
+        "id": "score-267",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-26",
+        "x": -4.471863061999315,
+        "value": -4.459889285589469
+      },
+      {
+        "id": "score-268",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-27",
+        "x": -4.1042069655706115,
+        "value": -4.087420975321905
+      },
+      {
+        "id": "score-269",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-28",
+        "x": 0.7122683255510864,
+        "value": 0.7222369159644515
+      },
+      {
+        "id": "score-270",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-29",
+        "x": 1.4847816723422724,
+        "value": 1.5056190218031773
+      },
+      {
+        "id": "score-271",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-09-30",
+        "x": 1.4342025978218231,
+        "value": 1.4565169325811311
+      },
+      {
+        "id": "score-272",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-01",
+        "x": 1.5407067666458474,
+        "value": 1.5454983573593495
+      },
+      {
+        "id": "score-273",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-02",
+        "x": 0.7545043225211856,
+        "value": 0.7633163767328455
+      },
+      {
+        "id": "score-274",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-03",
+        "x": -3.808651746024161,
+        "value": -3.807766342865264
+      },
+      {
+        "id": "score-275",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-04",
+        "x": -3.7608402732839608,
+        "value": -3.7599722048357975
+      },
+      {
+        "id": "score-276",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-05",
+        "x": 0.7028758014882541,
+        "value": 0.6970111574063509
+      },
+      {
+        "id": "score-277",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-06",
+        "x": 1.9432418317527933,
+        "value": 1.942572861915508
+      },
+      {
+        "id": "score-278",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-07",
+        "x": 1.2989028159934435,
+        "value": 1.2990849373906244
+      },
+      {
+        "id": "score-279",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-08",
+        "x": 1.436183613501676,
+        "value": 1.4336770922253805
+      },
+      {
+        "id": "score-280",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-09",
+        "x": 0.8063686030606121,
+        "value": 0.8039930619081659
+      },
+      {
+        "id": "score-281",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-10",
+        "x": -3.691916565102993,
+        "value": -3.6906527225257335
+      },
+      {
+        "id": "score-282",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-11",
+        "x": -3.8340111310638036,
+        "value": -3.8321433091747537
+      },
+      {
+        "id": "score-283",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-12",
+        "x": 0.37597061714446767,
+        "value": 0.37168393443465675
+      },
+      {
+        "id": "score-284",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-13",
+        "x": 1.611098221286369,
+        "value": 1.6090045104547812
+      },
+      {
+        "id": "score-285",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-14",
+        "x": 1.947204824397204,
+        "value": 1.9424904963775447
+      },
+      {
+        "id": "score-286",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-15",
+        "x": 1.7394409594971094,
+        "value": 1.7326495722656787
+      },
+      {
+        "id": "score-287",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-16",
+        "x": 0.973643022756967,
+        "value": 0.965642176481154
+      },
+      {
+        "id": "score-288",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-17",
+        "x": -4.155987888520265,
+        "value": -4.153524175632519
+      },
+      {
+        "id": "score-289",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-18",
+        "x": -4.607530991665421,
+        "value": -4.600711172805312
+      },
+      {
+        "id": "score-290",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-19",
+        "x": 0.6237966007790519,
+        "value": 0.6202083300982508
+      },
+      {
+        "id": "score-291",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-20",
+        "x": 1.4494724521993518,
+        "value": 1.4400589810298925
+      },
+      {
+        "id": "score-292",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-21",
+        "x": 1.539475074630019,
+        "value": 1.5257430711182352
+      },
+      {
+        "id": "score-293",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-22",
+        "x": 1.58229805707593,
+        "value": 1.5769272116180157
+      },
+      {
+        "id": "score-294",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-23",
+        "x": 0.9823378308777208,
+        "value": 0.9773281850479856
+      },
+      {
+        "id": "score-295",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-24",
+        "x": -4.563080898055993,
+        "value": -4.584221651957634
+      },
+      {
+        "id": "score-296",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-25",
+        "x": -4.557062870784243,
+        "value": -4.617680069868797
+      },
+      {
+        "id": "score-297",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-26",
+        "x": 0.6443464568122792,
+        "value": 0.6390140109611764
+      },
+      {
+        "id": "score-298",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-27",
+        "x": 0.9425681992910739,
+        "value": 0.9317140865067941
+      },
+      {
+        "id": "score-299",
+        "kind": "score",
+        "package": "rich",
+        "date": "2026-10-28",
+        "x": 1.8000917869305155,
+        "value": 1.7897754401104748
+      },
+      {
+        "id": "score-300",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-08-30",
+        "x": -8.61325810822347,
+        "value": -8.563433963635632
+      },
+      {
+        "id": "score-301",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-08-31",
+        "x": -4.404583144345651,
+        "value": -4.343849279341896
+      },
+      {
+        "id": "score-302",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-01",
+        "x": -2.808372224011575,
+        "value": -2.763168127847491
+      },
+      {
+        "id": "score-303",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-02",
+        "x": -0.9120422452197569,
+        "value": -0.92154635727607
+      },
+      {
+        "id": "score-304",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-03",
+        "x": -0.2619517362496859,
+        "value": -0.26077533939014425
+      },
+      {
+        "id": "score-305",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-04",
+        "x": -0.6067708136690444,
+        "value": -0.5945976642006693
+      },
+      {
+        "id": "score-306",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-05",
+        "x": -2.7723052240340027,
+        "value": -2.822609607740435
+      },
+      {
+        "id": "score-307",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-06",
+        "x": -2.191282511834641,
+        "value": -2.219469244551467
+      },
+      {
+        "id": "score-308",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-07",
+        "x": -0.7346564372200127,
+        "value": -0.7553129820148041
+      },
+      {
+        "id": "score-309",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-08",
+        "x": 0.014196637157213093,
+        "value": 0.0055500960746737455
+      },
+      {
+        "id": "score-310",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-09",
+        "x": -0.10937206393153641,
+        "value": -0.11015716708211137
+      },
+      {
+        "id": "score-311",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-10",
+        "x": -0.11822892578134321,
+        "value": -0.11854436629517938
+      },
+      {
+        "id": "score-312",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-11",
+        "x": -0.67704674178799,
+        "value": -0.6959783141301656
+      },
+      {
+        "id": "score-313",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-12",
+        "x": -4.672324305249447,
+        "value": -4.671135473788333
+      },
+      {
+        "id": "score-314",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-13",
+        "x": -5.053121489503027,
+        "value": -5.033477984638317
+      },
+      {
+        "id": "score-315",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-14",
+        "x": -0.3586324455864712,
+        "value": -0.3729815888624667
+      },
+      {
+        "id": "score-316",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-15",
+        "x": 0.5868528363812686,
+        "value": 0.6061476636322993
+      },
+      {
+        "id": "score-317",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-16",
+        "x": 1.015139011994144,
+        "value": 1.0348302563887302
+      },
+      {
+        "id": "score-318",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-17",
+        "x": 0.9486262523372702,
+        "value": 0.9678532886796987
+      },
+      {
+        "id": "score-319",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-18",
+        "x": 0.5705077841588135,
+        "value": 0.5947483820293797
+      },
+      {
+        "id": "score-320",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-19",
+        "x": -3.429867795853241,
+        "value": -3.3959827936281073
+      },
+      {
+        "id": "score-321",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-20",
+        "x": -3.7908990665057374,
+        "value": -3.755305445719408
+      },
+      {
+        "id": "score-322",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-21",
+        "x": 0.7699136986619948,
+        "value": 0.8092433454135062
+      },
+      {
+        "id": "score-323",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-22",
+        "x": 1.3365104835181185,
+        "value": 1.370445611835187
+      },
+      {
+        "id": "score-324",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-23",
+        "x": 1.5249051556360982,
+        "value": 1.553723409507164
+      },
+      {
+        "id": "score-325",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-24",
+        "x": 1.545750408307498,
+        "value": 1.5826030927287604
+      },
+      {
+        "id": "score-326",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-25",
+        "x": 0.287811134824949,
+        "value": 0.30605837798280333
+      },
+      {
+        "id": "score-327",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-26",
+        "x": -3.7654696665273235,
+        "value": -3.7483660233219496
+      },
+      {
+        "id": "score-328",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-27",
+        "x": -3.4793589536375436,
+        "value": -3.481196437250169
+      },
+      {
+        "id": "score-329",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-28",
+        "x": 0.7753338008965471,
+        "value": 0.7807845759715448
+      },
+      {
+        "id": "score-330",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-29",
+        "x": 1.5467329742006797,
+        "value": 1.5565861191096886
+      },
+      {
+        "id": "score-331",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-09-30",
+        "x": 1.5321397139874549,
+        "value": 1.5377501101603386
+      },
+      {
+        "id": "score-332",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-01",
+        "x": 1.4999949633668308,
+        "value": 1.500392181184722
+      },
+      {
+        "id": "score-333",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-02",
+        "x": 0.6884191917988502,
+        "value": 0.6817859857753206
+      },
+      {
+        "id": "score-334",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-03",
+        "x": -3.202249877391843,
+        "value": -3.1912843228791132
+      },
+      {
+        "id": "score-335",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-04",
+        "x": -3.399529079134922,
+        "value": -3.385993650432688
+      },
+      {
+        "id": "score-336",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-05",
+        "x": 0.5419510190873211,
+        "value": 0.5434254055642285
+      },
+      {
+        "id": "score-337",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-06",
+        "x": 1.4279166123913,
+        "value": 1.422736831235163
+      },
+      {
+        "id": "score-338",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-07",
+        "x": 1.1653613301942656,
+        "value": 1.1607649343498139
+      },
+      {
+        "id": "score-339",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-08",
+        "x": 1.3008922431820125,
+        "value": 1.296201333074265
+      },
+      {
+        "id": "score-340",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-09",
+        "x": 0.5665116905002421,
+        "value": 0.5677092099202952
+      },
+      {
+        "id": "score-341",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-10",
+        "x": -3.6702383683165962,
+        "value": -3.6647096851845617
+      },
+      {
+        "id": "score-342",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-11",
+        "x": -3.777901188208297,
+        "value": -3.767640450609697
+      },
+      {
+        "id": "score-343",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-12",
+        "x": -0.22506549030961054,
+        "value": -0.22005517777575534
+      },
+      {
+        "id": "score-344",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-13",
+        "x": 0.8917816353210384,
+        "value": 0.896117124867537
+      },
+      {
+        "id": "score-345",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-14",
+        "x": 1.2197560636345628,
+        "value": 1.2211914257861523
+      },
+      {
+        "id": "score-346",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-15",
+        "x": 1.1900758501017705,
+        "value": 1.189406859713742
+      },
+      {
+        "id": "score-347",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-16",
+        "x": 0.42140789233293674,
+        "value": 0.4279562576341789
+      },
+      {
+        "id": "score-348",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-17",
+        "x": -3.515636284421717,
+        "value": -3.512435792483899
+      },
+      {
+        "id": "score-349",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-18",
+        "x": -3.8645557597978453,
+        "value": -3.8558120932458806
+      },
+      {
+        "id": "score-350",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-19",
+        "x": 0.5430166753027166,
+        "value": 0.5471170273762382
+      },
+      {
+        "id": "score-351",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-20",
+        "x": 1.024847448715036,
+        "value": 1.0068322802822038
+      },
+      {
+        "id": "score-352",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-21",
+        "x": 0.9555273901881023,
+        "value": 0.9450712450069076
+      },
+      {
+        "id": "score-353",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-22",
+        "x": 0.9549955746135197,
+        "value": 0.9421961491758779
+      },
+      {
+        "id": "score-354",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-23",
+        "x": 0.4957587515204409,
+        "value": 0.4862050741732915
+      },
+      {
+        "id": "score-355",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-24",
+        "x": -3.6896197981304724,
+        "value": -3.7013709812277895
+      },
+      {
+        "id": "score-356",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-25",
+        "x": -3.569036067140594,
+        "value": -3.5701559173374875
+      },
+      {
+        "id": "score-357",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-26",
+        "x": 0.5238877068147119,
+        "value": 0.5212018381939387
+      },
+      {
+        "id": "score-358",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-27",
+        "x": 1.052877536984056,
+        "value": 1.0491188437022103
+      },
+      {
+        "id": "score-359",
+        "kind": "score",
+        "package": "urllib3",
+        "date": "2026-10-28",
+        "x": 1.7501181789333842,
+        "value": 1.745087388962645
+      }
+    ],
+    "files": {
+      "figures/paired_scores.pdf": "a6b1bb624d3b6c0051d114e12d0e2a10245811ff73bb978fc62f04b3e2476587",
+      "figures/paired_scores.png": "cf1ac9972ae5941a0529bc87697a4b360dd52fdf2a9bc0d1bd783c34faec04e3",
+      "figures/paired_scores.svg": "9d704c99c56df4ecc34bd26977d70dbfb3eec46025c632a7834c7fc0f968233c"
+    }
+  }
+]

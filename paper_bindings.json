@@ -1,0 +1,550 @@
+{
+  "MSourceFiles": {
+    "file": "data/source_verification.json",
+    "pointer": [
+      "source_entities"
+    ],
+    "value": 12,
+    "display": "12"
+  },
+  "MSourceBytes": {
+    "file": "data/source_verification.json",
+    "pointer": [
+      "source_bytes"
+    ],
+    "value": 346249,
+    "display": "346249"
+  },
+  "MSourceCells": {
+    "file": "data/source_verification.json",
+    "pointer": [
+      "source_cells"
+    ],
+    "value": 4920,
+    "display": "4920"
+  },
+  "MProjectedRows": {
+    "file": "data/source_verification.json",
+    "pointer": [
+      "projected_rows"
+    ],
+    "value": 1800,
+    "display": "1800"
+  },
+  "MSourceChecks": {
+    "file": "data/source_verification.json",
+    "pointer": [
+      "conditions"
+    ],
+    "value": 8558,
+    "display": "8558"
+  },
+  "MDevChecks": {
+    "file": "data/development_verification.json",
+    "pointer": [
+      "conditions"
+    ],
+    "value": 12991,
+    "display": "12991"
+  },
+  "MFinalChecks": {
+    "file": "data/final_verification.json",
+    "pointer": [
+      "conditions"
+    ],
+    "value": 12643,
+    "display": "12643"
+  },
+  "MDevOrigins": {
+    "file": "results/development/summary.json",
+    "pointer": [
+      "scorable"
+    ],
+    "value": 372,
+    "display": "372"
+  },
+  "MDevUnknown": {
+    "file": "results/development/summary.json",
+    "pointer": [
+      "unknown_origins"
+    ],
+    "value": 168,
+    "display": "168"
+  },
+  "MFinalOrigins": {
+    "file": "results/final/summary.json",
+    "pointer": [
+      "scorable"
+    ],
+    "value": 360,
+    "display": "360"
+  },
+  "MFinalUnknown": {
+    "file": "results/final/summary.json",
+    "pointer": [
+      "unknown_origins"
+    ],
+    "value": 0,
+    "display": "0"
+  },
+  "MWindow": {
+    "file": "data/source_plan.json",
+    "pointer": [
+      "expected_dates"
+    ],
+    "value": 150,
+    "display": "150"
+  },
+  "MHistory": {
+    "file": "data/source_plan.json",
+    "pointer": [
+      "history_days"
+    ],
+    "value": 28,
+    "display": "28"
+  },
+  "MThreeNative": {
+    "file": "results/final/summary.json",
+    "pointer": [
+      "thresholds",
+      "3",
+      "native"
+    ],
+    "value": 4,
+    "display": "4"
+  },
+  "MThreeFiltered": {
+    "file": "results/final/summary.json",
+    "pointer": [
+      "thresholds",
+      "3",
+      "filtered"
+    ],
+    "value": 4,
+    "display": "4"
+  },
+  "MThreeCleared": {
+    "file": "results/final/summary.json",
+    "pointer": [
+      "thresholds",
+      "3",
+      "native_only"
+    ],
+    "value": 0,
+    "display": "0"
+  },
+  "MThreeAppeared": {
+    "file": "results/final/summary.json",
+    "pointer": [
+      "thresholds",
+      "3",
+      "filtered_only"
+    ],
+    "value": 0,
+    "display": "0"
+  },
+  "MSixNative": {
+    "file": "results/final/summary.json",
+    "pointer": [
+      "thresholds",
+      "6",
+      "native"
+    ],
+    "value": 0,
+    "display": "0"
+  },
+  "MSixFiltered": {
+    "file": "results/final/summary.json",
+    "pointer": [
+      "thresholds",
+      "6",
+      "filtered"
+    ],
+    "value": 0,
+    "display": "0"
+  },
+  "MSixCleared": {
+    "file": "results/final/summary.json",
+    "pointer": [
+      "thresholds",
+      "6",
+      "native_only"
+    ],
+    "value": 0,
+    "display": "0"
+  },
+  "MSixAppeared": {
+    "file": "results/final/summary.json",
+    "pointer": [
+      "thresholds",
+      "6",
+      "filtered_only"
+    ],
+    "value": 0,
+    "display": "0"
+  },
+  "MNineNative": {
+    "file": "results/final/summary.json",
+    "pointer": [
+      "thresholds",
+      "9",
+      "native"
+    ],
+    "value": 0,
+    "display": "0"
+  },
+  "MNineFiltered": {
+    "file": "results/final/summary.json",
+    "pointer": [
+      "thresholds",
+      "9",
+      "filtered"
+    ],
+    "value": 0,
+    "display": "0"
+  },
+  "MNineCleared": {
+    "file": "results/final/summary.json",
+    "pointer": [
+      "thresholds",
+      "9",
+      "native_only"
+    ],
+    "value": 0,
+    "display": "0"
+  },
+  "MNineAppeared": {
+    "file": "results/final/summary.json",
+    "pointer": [
+      "thresholds",
+      "9",
+      "filtered_only"
+    ],
+    "value": 0,
+    "display": "0"
+  },
+  "MPackageACells": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      0,
+      "source_cells"
+    ],
+    "value": 410,
+    "display": "410"
+  },
+  "MPackageADates": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      0,
+      "source_dates"
+    ],
+    "value": 205,
+    "display": "205"
+  },
+  "MPackageAPaired": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      0,
+      "paired_window_dates"
+    ],
+    "value": 150,
+    "display": "150"
+  },
+  "MPackageBCells": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      1,
+      "source_cells"
+    ],
+    "value": 410,
+    "display": "410"
+  },
+  "MPackageBDates": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      1,
+      "source_dates"
+    ],
+    "value": 205,
+    "display": "205"
+  },
+  "MPackageBPaired": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      1,
+      "paired_window_dates"
+    ],
+    "value": 150,
+    "display": "150"
+  },
+  "MPackageCCells": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      2,
+      "source_cells"
+    ],
+    "value": 410,
+    "display": "410"
+  },
+  "MPackageCDates": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      2,
+      "source_dates"
+    ],
+    "value": 205,
+    "display": "205"
+  },
+  "MPackageCPaired": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      2,
+      "paired_window_dates"
+    ],
+    "value": 150,
+    "display": "150"
+  },
+  "MPackageDCells": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      3,
+      "source_cells"
+    ],
+    "value": 410,
+    "display": "410"
+  },
+  "MPackageDDates": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      3,
+      "source_dates"
+    ],
+    "value": 205,
+    "display": "205"
+  },
+  "MPackageDPaired": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      3,
+      "paired_window_dates"
+    ],
+    "value": 150,
+    "display": "150"
+  },
+  "MPackageECells": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      4,
+      "source_cells"
+    ],
+    "value": 410,
+    "display": "410"
+  },
+  "MPackageEDates": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      4,
+      "source_dates"
+    ],
+    "value": 205,
+    "display": "205"
+  },
+  "MPackageEPaired": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      4,
+      "paired_window_dates"
+    ],
+    "value": 150,
+    "display": "150"
+  },
+  "MPackageFCells": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      5,
+      "source_cells"
+    ],
+    "value": 410,
+    "display": "410"
+  },
+  "MPackageFDates": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      5,
+      "source_dates"
+    ],
+    "value": 205,
+    "display": "205"
+  },
+  "MPackageFPaired": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      5,
+      "paired_window_dates"
+    ],
+    "value": 150,
+    "display": "150"
+  },
+  "MPackageGCells": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      6,
+      "source_cells"
+    ],
+    "value": 410,
+    "display": "410"
+  },
+  "MPackageGDates": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      6,
+      "source_dates"
+    ],
+    "value": 205,
+    "display": "205"
+  },
+  "MPackageGPaired": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      6,
+      "paired_window_dates"
+    ],
+    "value": 150,
+    "display": "150"
+  },
+  "MPackageHCells": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      7,
+      "source_cells"
+    ],
+    "value": 410,
+    "display": "410"
+  },
+  "MPackageHDates": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      7,
+      "source_dates"
+    ],
+    "value": 205,
+    "display": "205"
+  },
+  "MPackageHPaired": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      7,
+      "paired_window_dates"
+    ],
+    "value": 150,
+    "display": "150"
+  },
+  "MPackageICells": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      8,
+      "source_cells"
+    ],
+    "value": 410,
+    "display": "410"
+  },
+  "MPackageIDates": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      8,
+      "source_dates"
+    ],
+    "value": 205,
+    "display": "205"
+  },
+  "MPackageIPaired": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      8,
+      "paired_window_dates"
+    ],
+    "value": 150,
+    "display": "150"
+  },
+  "MPackageJCells": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      9,
+      "source_cells"
+    ],
+    "value": 410,
+    "display": "410"
+  },
+  "MPackageJDates": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      9,
+      "source_dates"
+    ],
+    "value": 205,
+    "display": "205"
+  },
+  "MPackageJPaired": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      9,
+      "paired_window_dates"
+    ],
+    "value": 150,
+    "display": "150"
+  },
+  "MPackageKCells": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      10,
+      "source_cells"
+    ],
+    "value": 410,
+    "display": "410"
+  },
+  "MPackageKDates": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      10,
+      "source_dates"
+    ],
+    "value": 205,
+    "display": "205"
+  },
+  "MPackageKPaired": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      10,
+      "paired_window_dates"
+    ],
+    "value": 150,
+    "display": "150"
+  },
+  "MPackageLCells": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      11,
+      "source_cells"
+    ],
+    "value": 410,
+    "display": "410"
+  },
+  "MPackageLDates": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      11,
+      "source_dates"
+    ],
+    "value": 205,
+    "display": "205"
+  },
+  "MPackageLPaired": {
+    "file": "data/qualification_ledger.json",
+    "pointer": [
+      11,
+      "paired_window_dates"
+    ],
+    "value": 150,
+    "display": "150"
+  }
+}
