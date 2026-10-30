@@ -1,0 +1,95 @@
+{
+  "packages": [
+    {
+      "package": "pytest",
+      "phase": "development",
+      "assignment_sha256": "2b01214d32c382dbc73bf6b493bedb7926324af27bad3ee888f66774b9b114c8",
+      "url": "https://pypistats.org/api/packages/pytest/overall"
+    },
+    {
+      "package": "matplotlib",
+      "phase": "final",
+      "assignment_sha256": "2b15fcd19d49b750303f64b9b70540582f3a8c234f5db2be6e932c350fb4d8be",
+      "url": "https://pypistats.org/api/packages/matplotlib/overall"
+    },
+    {
+      "package": "httpx",
+      "phase": "development",
+      "assignment_sha256": "44c3f6f83c39094fec0db8b7f158d0a8fad3418e77f5f739b103e1ac73eee5d8",
+      "url": "https://pypistats.org/api/packages/httpx/overall"
+    },
+    {
+      "package": "urllib3",
+      "phase": "final",
+      "assignment_sha256": "4e08df8645a52a3fa9c5d9bea56d95d55b911db35f652cbbe6016517e761acb5",
+      "url": "https://pypistats.org/api/packages/urllib3/overall"
+    },
+    {
+      "package": "numpy",
+      "phase": "development",
+      "assignment_sha256": "73dd0baf8e5438da8816254a073ee43b61f8b2cdef6f393e0059cdbc55cb8d9c",
+      "url": "https://pypistats.org/api/packages/numpy/overall"
+    },
+    {
+      "package": "rich",
+      "phase": "final",
+      "assignment_sha256": "7baa68f2418ba82d2545a780c00d7a8778249bbcdaf7369114534874ea6d3bd6",
+      "url": "https://pypistats.org/api/packages/rich/overall"
+    },
+    {
+      "package": "pandas",
+      "phase": "development",
+      "assignment_sha256": "ae4863bdae026314d5994730ad24730434f256c274d8431c53ed537393992be6",
+      "url": "https://pypistats.org/api/packages/pandas/overall"
+    },
+    {
+      "package": "flask",
+      "phase": "final",
+      "assignment_sha256": "b87aa5270772708aeaed24ad65681618c398f238e7b3bed393af852738243377",
+      "url": "https://pypistats.org/api/packages/flask/overall"
+    },
+    {
+      "package": "scipy",
+      "phase": "development",
+      "assignment_sha256": "b91780636b12da5ea37add0c8d2e659d47184fa8e70242f8d20b86e429afd6e2",
+      "url": "https://pypistats.org/api/packages/scipy/overall"
+    },
+    {
+      "package": "black",
+      "phase": "final",
+      "assignment_sha256": "c006c7e3ab14d686f63524136f1ec7c5e553d839bc01c851e4dc9de2bdbfc589",
+      "url": "https://pypistats.org/api/packages/black/overall"
+    },
+    {
+      "package": "click",
+      "phase": "development",
+      "assignment_sha256": "e5c7ffac26fed654fe62045898f55b551a0dc120badf3d116bcd364418f3ec16",
+      "url": "https://pypistats.org/api/packages/click/overall"
+    },
+    {
+      "package": "requests",
+      "phase": "final",
+      "assignment_sha256": "ec72420df5dfbdce4111f715c96338df3b7cb75f58e478d2449c9720e560de8c",
+      "url": "https://pypistats.org/api/packages/requests/overall"
+    }
+  ],
+  "start": "2026-06-01",
+  "development_end": "2026-08-29",
+  "final_start": "2026-08-30",
+  "end": "2026-10-28",
+  "expected_dates": 150,
+  "minimum_paired_dates": 145,
+  "minimum_scorable_per_package": 30,
+  "history_days": 28,
+  "thresholds": [
+    3,
+    6,
+    9
+  ],
+  "primary_threshold": 6,
+  "mad_floor": 0.1,
+  "maximum_get_steps": 25,
+  "minimum_spacing_seconds": 10,
+  "maximum_entity_bytes": 1048576,
+  "maximum_total_bytes": 16777216
+}
