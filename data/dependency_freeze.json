@@ -1,0 +1,124 @@
+{
+  "timestamp_utc": "2026-10-30T21:58:57.896635+00:00",
+  "development_commit": "48fa60ff401a8ab9b7dbfcb8b649f264d5981e3c",
+  "final_scores_analytically_extracted": false,
+  "source_envelopes_include_final_counters": true,
+  "files": [
+    {
+      "path": "DATA_RIGHTS.md",
+      "sha256": "e2c7fcf11542097af34e043653dee8afbce19cd0219b81831e4695905d066b49"
+    },
+    {
+      "path": "ENVIRONMENT.md",
+      "sha256": "5c9e5af787b8cd4663bd0a9d753102bdf56249ed5b6f429db93a54577411dde2"
+    },
+    {
+      "path": "IMPLEMENTATION_EXERCISE.md",
+      "sha256": "86cf7543428e4c6f322faf33d4f0ee7891f8ee0139f0ecc354a677c9944d7856"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "sha256": "85b290db28c1c9f21f1ca15c807bf3d21d7e65bd3671220347498666944eb1c7"
+    },
+    {
+      "path": "data/development_verification.json",
+      "sha256": "b58b97213411e76264c425629f9f89f93b3675848fec64d04c5ae44b31e14b02"
+    },
+    {
+      "path": "data/paired_counts.json",
+      "sha256": "d23da7a79f4fd4d189b8f2de7e3e2987b9865168e869f3c719f4d33702657218"
+    },
+    {
+      "path": "data/qualification_ledger.json",
+      "sha256": "b41218dcb3471b6e4e4d7fbc01ac32adef231d359d0f2c1d2a49a8e98a38c6e3"
+    },
+    {
+      "path": "data/source_plan.json",
+      "sha256": "7d34813b2cad16a0aa04b7d7dca3b2a00b3aaad14c22d62f95fb4310951c387f"
+    },
+    {
+      "path": "data/source_receipts.json",
+      "sha256": "45eb30fbea630c866672793767a13ab4fe98f1a25b059b09619133da09407e84"
+    },
+    {
+      "path": "data/source_verification.json",
+      "sha256": "e43bf6297cd6a1415c633a357637fb2bf2bb840f24781399be2eabfdc1784262"
+    },
+    {
+      "path": "examples/removed-current-spike.expected.json",
+      "sha256": "21bbdb8570746e36e545bcc8359c4af491e057debf2e0bcf497f6ec72429d370"
+    },
+    {
+      "path": "examples/removed-current-spike.json",
+      "sha256": "bb142267b60d7f01673915ac05bcb5a2e989e2b7e89bb4039d7c26c4adc6c132"
+    },
+    {
+      "path": "examples/revealed-filtered-spike.expected.json",
+      "sha256": "c763e13e70a26dc5b50269c1e27f9bd5920fae243e0011515747592163a28aa0"
+    },
+    {
+      "path": "examples/revealed-filtered-spike.json",
+      "sha256": "c5e50317ea26012d75d32a583a4b935d6103ea9d94bbb4ee7ec3d9052c645d28"
+    },
+    {
+      "path": "examples/unknown-short-history.expected.json",
+      "sha256": "c878bac4bc4f56d9ad935a144101b260215a06b33d009adc51fe348b64e83103"
+    },
+    {
+      "path": "examples/unknown-short-history.json",
+      "sha256": "9c6c0dfe8599c72012ef138c3b12ec7ca9e5670b22696f3025f272cc0aa75b39"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "2c8eb71865168d51d8882e67e0aa7d9e6a1a11bcf0ec6f7a699fea5422f5efb5"
+    },
+    {
+      "path": "results/development/scores.json",
+      "sha256": "56813aeca31e44ddfb4d704362ccccf35d177fcbd5947ca4b5b81550a9ab6860"
+    },
+    {
+      "path": "results/development/summary.json",
+      "sha256": "f1c3ced40869bd1a4190580125e35c9166fef278c212a1cf9bac0d77285ba10e"
+    },
+    {
+      "path": "src/acquire.py",
+      "sha256": "643bf389210a3f0df449a7f7f841de83bb4665d9c8dd89a3bcc16440ca5f7eb3"
+    },
+    {
+      "path": "src/analyze.py",
+      "sha256": "38d26c4d093c09f45a415bcac3c1cab721873215452e876bdacea12f88955deb"
+    },
+    {
+      "path": "src/downloads.py",
+      "sha256": "614fad323e97fd039c5c3128ec1ca9519dea20f38e397af8af4b9348749b3a8e"
+    },
+    {
+      "path": "src/freeze_proof.py",
+      "sha256": "1a6d4604b284c94b703d9ba5e9e2e1ce5301e0b7687e138ac4c093881d6ddc6f"
+    },
+    {
+      "path": "src/prepare_source.py",
+      "sha256": "123bded81a14dff3bbb0eabe238490c1e90487542561d1c2e2b9044d294d2add"
+    },
+    {
+      "path": "src/replay.py",
+      "sha256": "50171088a39d9fa4dd39440ac24707c18fe15697626052459f54885e02246aa4"
+    },
+    {
+      "path": "src/review_cli.py",
+      "sha256": "d65591390b856a1fbee67ca11dceeb879f6527151f0f6f128ea2dcf2065c6709"
+    },
+    {
+      "path": "src/verify_results.py",
+      "sha256": "61d4eaee48fc6929fc49dff79947ce1b3ee9d7a9ea3716855cd17ad380c843ec"
+    },
+    {
+      "path": "src/verify_source_originals.py",
+      "sha256": "0c34f59e1fcf1d8de8a397c97f8ea3556c4eb038c1ad1c73de023797478bb5c0"
+    },
+    {
+      "path": "tests/test_downloads.py",
+      "sha256": "02ca3813260c355f339b7440593ce8b721b4a13c80d09e7835ea9232354ae6db"
+    }
+  ]
+}
