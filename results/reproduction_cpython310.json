@@ -1,0 +1,26 @@
+{
+  "status": "PASS_OFFLINE_REPLAY",
+  "python": "3.10.11",
+  "exact_fields": 11173,
+  "tolerant_fields": 2310,
+  "absolute_tolerance": 1e-10,
+  "source_files_unchanged": 4,
+  "source_sha256": {
+    "data/source_plan.json": "7d34813b2cad16a0aa04b7d7dca3b2a00b3aaad14c22d62f95fb4310951c387f",
+    "data/paired_counts.json": "d23da7a79f4fd4d189b8f2de7e3e2987b9865168e869f3c719f4d33702657218",
+    "data/source_receipts.json": "45eb30fbea630c866672793767a13ab4fe98f1a25b059b09619133da09407e84",
+    "data/qualification_ledger.json": "b41218dcb3471b6e4e4d7fbc01ac32adef231d359d0f2c1d2a49a8e98a38c6e3"
+  },
+  "fixtures": 21,
+  "examples": {
+    "removed-current-spike.json": "scored",
+    "revealed-filtered-spike.json": "scored",
+    "unknown-short-history.json": "UNKNOWN_INCOMPLETE_PAIRED_HISTORY"
+  },
+  "source_network_requests": 0,
+  "timestamp_utc": "2026-10-30T22:03:37.942859+00:00",
+  "tested_revision": "b9cc474e7302fd4eb73fbb9801469f2a22da502d",
+  "full_history_clone": true,
+  "history_commits": 6,
+  "frozen_dependencies": 29
+}

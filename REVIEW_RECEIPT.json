@@ -1,16 +1,15 @@
 {
-  "timestamp_utc": "2026-10-30T22:03:13.603468+00:00",
-  "version": "Complete local artifact before isolated replay and remote CI",
-  "status": "INCOMPLETE_FULL_CLONE_AND_RELEASE_PENDING",
-  "grade": 3,
+  "timestamp_utc": "2026-10-30T22:04:16.976748+00:00",
+  "version": "Local ready candidate; exact remote proof tracked in release records",
+  "status": "LOCAL_ACCEPTANCE_PASS",
+  "grade": 4,
   "gates": {
     "source": "pass_8558_native_SQLite_conditions",
-    "privacy": "pending_scoped_staged_scan",
+    "privacy": "pass_bounded_canonical_scan",
     "separation": "pass_original_29_dependencies",
     "development": "pass_12991_independent_conditions",
     "final": "pass_12643_independent_conditions",
-    "replay": "pending_full_history_clones",
-    "release": "pending_remote_CI_tree_tag",
+    "replay": "pass_two_isolated_full_history_clones",
     "exercise": "pass_3_authored_examples",
     "fixtures": "pass_21_methods",
     "figures": "pass_378_values_864_coordinates_9_hashes_and_visual_inspection",
@@ -93,19 +92,16 @@
       "limitation": "No accessibility conformance claim from visual inspection."
     },
     "privacy": {
-      "state": "unknown",
-      "grade": null,
-      "evidence": "Scoped staged scan pending"
+      "state": "pass",
+      "grade": 4,
+      "evidence": "64-file staged scan and 63 canonical Git blobs on b9cc474; refreshed on this coherent metadata revision",
+      "limitation": "Bounded patterns/path/scope/hash checks, not universal privacy detection."
     },
     "replay": {
-      "state": "unknown",
-      "grade": null,
-      "evidence": "Isolated full-history clones pending"
-    },
-    "release": {
-      "state": "unknown",
-      "grade": null,
-      "evidence": "Exact candidate/main Linux CI, tree, annotated tag and program metadata pending"
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Full-history independent clones under CPython3.10.11 and3.12.14; 11173 exact fields,2310 tolerant fields,4 source files unchanged,21 fixtures,29 frozen dependencies and3 examples each.",
+      "limitation": "Saved-source replay; no live-refresh or production validation."
     }
   },
   "final_evidence": {
@@ -122,5 +118,24 @@
     "paper/manuscript.pdf": "acfea8e990c0f34753cc13892f3509d63d2539ff3c7a1eb9f8124720faa1e002",
     "figures/value_map.json": "be3987d446772bedd2a9c9c37ecb96cb3a5f1fcc716d103810b3c13eae7ee6cd",
     "SOURCE_REVISION_CLARIFICATION.md": "0fd3c32aa79ffe16d4f53d565d5b79c4a732924187ed800919c766804c2016e8"
+  },
+  "scope": "Finite local artifact acceptance; overall release additionally requires exact candidate/main CI, tested-tree identity, remote annotated tag and synchronized metadata.",
+  "release_evidence": {
+    "state": "PENDING_EXACT_REMOTE_CHECKS",
+    "pull_request": "https://github.com/S3R3Bii/download-spike-context/pull/2"
+  },
+  "replay_evidence": {
+    "python": [
+      "3.10.11",
+      "3.12.14"
+    ],
+    "exact_fields": 11173,
+    "tolerant_fields": 2310,
+    "unchanged_source_JSON_files": 4,
+    "full_history_clones": true,
+    "frozen_dependencies": 29,
+    "fixtures": 21,
+    "authored_examples": 3,
+    "source_network_requests": 0
   }
 }

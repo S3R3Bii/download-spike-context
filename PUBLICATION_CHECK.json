@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-30T22:03:16.726290+00:00",
+  "timestamp_utc": "2026-10-30T22:04:19.537341+00:00",
   "status": "PASS_BOUNDED_SCAN",
-  "files_checked": 64,
+  "files_checked": 66,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
@@ -13,7 +13,7 @@
     "LICENSE": "1810ffd0f9ec2e70b051ff6340544087d0dd7b522237d7207e98424373928a41",
     "PROTOCOL.md": "85b290db28c1c9f21f1ca15c807bf3d21d7e65bd3671220347498666944eb1c7",
     "README.md": "e7d6c67f1150d007ac3ea48a57ecb4182c167faa99b7c4ca01238101bef08fe6",
-    "REVIEW_RECEIPT.json": "1f9afcf71bdf8f236bfb62bf155110fd3c882992141a081595021dc6a142826b",
+    "REVIEW_RECEIPT.json": "0cb3f4a2ccbb0a7cc9ee1dd9e5177726972f15818f46103959e2e53798dee1e7",
     "SOURCE_REVISION_CLARIFICATION.md": "0fd3c32aa79ffe16d4f53d565d5b79c4a732924187ed800919c766804c2016e8",
     "data/dependency_freeze.json": "dfef4b1a3b475e20f43e945b84d2c3e9fd2ebb03a85ea9fe6766c018bfeefd69",
     "data/development_verification.json": "b58b97213411e76264c425629f9f89f93b3675848fec64d04c5ae44b31e14b02",
@@ -54,6 +54,8 @@
     "results/development/summary.json": "f1c3ced40869bd1a4190580125e35c9166fef278c212a1cf9bac0d77285ba10e",
     "results/final/scores.json": "c2853c7ce91d88d622d0ca9b08e9232ffb83dee9414f5ddd3fed1ceaed81d5f0",
     "results/final/summary.json": "6a4688a4635479ea20379fc3b48c14994bb4df732dee7ae549fe725911f430e8",
+    "results/reproduction_cpython310.json": "22af35e08aa3986b1c234eff05efef1ec47a28e662ba8826082aea7c22572c6e",
+    "results/reproduction_cpython312.json": "39573724a26aa53180c4b5ab2faf41efe4778e4d330fded6736127d831c074d4",
     "src/acquire.py": "643bf389210a3f0df449a7f7f841de83bb4665d9c8dd89a3bcc16440ca5f7eb3",
     "src/analyze.py": "38d26c4d093c09f45a415bcac3c1cab721873215452e876bdacea12f88955deb",
     "src/downloads.py": "614fad323e97fd039c5c3128ec1ca9519dea20f38e397af8af4b9348749b3a8e",
