@@ -1,0 +1,194 @@
+[
+  {
+    "package": "pytest",
+    "url": "https://pypistats.org/api/packages/pytest/overall",
+    "start_utc": "2026-10-30T21:55:41.280883+00:00",
+    "end_utc": "2026-10-30T21:55:41.750491+00:00",
+    "status": 200,
+    "headers": {
+      "content-length": "28962",
+      "content-type": "application/json",
+      "date": "Fri, 30 Oct 2026 21:55:41 GMT",
+      "retry-after": "0"
+    },
+    "bytes": 28962,
+    "sha256": "7ebf54a66b78bdcefd0f1a909baa8bf1f4662dc260ebb70569913e8be6a564d2",
+    "retry_attempt": false
+  },
+  {
+    "package": "matplotlib",
+    "url": "https://pypistats.org/api/packages/matplotlib/overall",
+    "start_utc": "2026-10-30T21:55:51.282504+00:00",
+    "end_utc": "2026-10-30T21:55:51.330507+00:00",
+    "status": 200,
+    "headers": {
+      "content-length": "28564",
+      "content-type": "application/json",
+      "date": "Fri, 30 Oct 2026 21:55:51 GMT",
+      "retry-after": "0"
+    },
+    "bytes": 28564,
+    "sha256": "1507fa94969a9fc1aae0954a4254ba8901985e1f69e138686b9155d9006296fc",
+    "retry_attempt": false
+  },
+  {
+    "package": "httpx",
+    "url": "https://pypistats.org/api/packages/httpx/overall",
+    "start_utc": "2026-10-30T21:56:01.282785+00:00",
+    "end_utc": "2026-10-30T21:56:01.333788+00:00",
+    "status": 200,
+    "headers": {
+      "content-length": "28961",
+      "content-type": "application/json",
+      "date": "Fri, 30 Oct 2026 21:56:01 GMT",
+      "retry-after": "0"
+    },
+    "bytes": 28961,
+    "sha256": "029ff788dbc1cc070f9b38f311643031c3b63689bd79f72e0bf10fec492ec73e",
+    "retry_attempt": false
+  },
+  {
+    "package": "urllib3",
+    "url": "https://pypistats.org/api/packages/urllib3/overall",
+    "start_utc": "2026-10-30T21:56:11.283857+00:00",
+    "end_utc": "2026-10-30T21:56:11.328858+00:00",
+    "status": 200,
+    "headers": {
+      "content-length": "28963",
+      "content-type": "application/json",
+      "date": "Fri, 30 Oct 2026 21:56:11 GMT",
+      "retry-after": "1"
+    },
+    "bytes": 28963,
+    "sha256": "16270990337ac21e79aac07cabfa250ea18624bfa63a6c6119942359b70015cc",
+    "retry_attempt": false
+  },
+  {
+    "package": "numpy",
+    "url": "https://pypistats.org/api/packages/numpy/overall",
+    "start_utc": "2026-10-30T21:56:21.284347+00:00",
+    "end_utc": "2026-10-30T21:56:21.328349+00:00",
+    "status": 200,
+    "headers": {
+      "content-length": "28961",
+      "content-type": "application/json",
+      "date": "Fri, 30 Oct 2026 21:56:21 GMT",
+      "retry-after": "1"
+    },
+    "bytes": 28961,
+    "sha256": "56d6bc26e59870d39faad06b7410c17a7e7e7e155b34eb997c0994775cfae52a",
+    "retry_attempt": false
+  },
+  {
+    "package": "rich",
+    "url": "https://pypistats.org/api/packages/rich/overall",
+    "start_utc": "2026-10-30T21:56:31.284819+00:00",
+    "end_utc": "2026-10-30T21:56:31.328819+00:00",
+    "status": 200,
+    "headers": {
+      "content-length": "28948",
+      "content-type": "application/json",
+      "date": "Fri, 30 Oct 2026 21:56:31 GMT",
+      "retry-after": "0"
+    },
+    "bytes": 28948,
+    "sha256": "90d29022b6bf3703052dc3ae4dbe854518c2164c205384b0fba7556c12499945",
+    "retry_attempt": false
+  },
+  {
+    "package": "pandas",
+    "url": "https://pypistats.org/api/packages/pandas/overall",
+    "start_utc": "2026-10-30T21:56:41.285090+00:00",
+    "end_utc": "2026-10-30T21:56:41.332092+00:00",
+    "status": 200,
+    "headers": {
+      "content-length": "28962",
+      "content-type": "application/json",
+      "date": "Fri, 30 Oct 2026 21:56:41 GMT",
+      "retry-after": "1"
+    },
+    "bytes": 28962,
+    "sha256": "6074b071addff79373e2ec0edd071c7fecfd5f003901e64cae49068b626090b7",
+    "retry_attempt": false
+  },
+  {
+    "package": "flask",
+    "url": "https://pypistats.org/api/packages/flask/overall",
+    "start_utc": "2026-10-30T21:56:51.285624+00:00",
+    "end_utc": "2026-10-30T21:56:51.329625+00:00",
+    "status": 200,
+    "headers": {
+      "content-length": "28551",
+      "content-type": "application/json",
+      "date": "Fri, 30 Oct 2026 21:56:51 GMT",
+      "retry-after": "0"
+    },
+    "bytes": 28551,
+    "sha256": "719a2d5bd388781fe65bdab24c816d34431f21f5c904d192da0ee8cc97b8e271",
+    "retry_attempt": false
+  },
+  {
+    "package": "scipy",
+    "url": "https://pypistats.org/api/packages/scipy/overall",
+    "start_utc": "2026-10-30T21:57:01.285940+00:00",
+    "end_utc": "2026-10-30T21:57:01.346941+00:00",
+    "status": 200,
+    "headers": {
+      "content-length": "28901",
+      "content-type": "application/json",
+      "date": "Fri, 30 Oct 2026 21:57:01 GMT",
+      "retry-after": "1"
+    },
+    "bytes": 28901,
+    "sha256": "3439c46aeb3906fba22e6e9fd8c1389c8fcdb4ad00f0b1b32696f4b43d438047",
+    "retry_attempt": false
+  },
+  {
+    "package": "black",
+    "url": "https://pypistats.org/api/packages/black/overall",
+    "start_utc": "2026-10-30T21:57:11.286485+00:00",
+    "end_utc": "2026-10-30T21:57:11.345568+00:00",
+    "status": 200,
+    "headers": {
+      "content-length": "28551",
+      "content-type": "application/json",
+      "date": "Fri, 30 Oct 2026 21:57:11 GMT",
+      "retry-after": "0"
+    },
+    "bytes": 28551,
+    "sha256": "535bc31a1c69818487ebb23da489caf7571fbf4e1dc74c657f3eae8bd63ae64c",
+    "retry_attempt": false
+  },
+  {
+    "package": "click",
+    "url": "https://pypistats.org/api/packages/click/overall",
+    "start_utc": "2026-10-30T21:57:21.287503+00:00",
+    "end_utc": "2026-10-30T21:57:21.332504+00:00",
+    "status": 200,
+    "headers": {
+      "content-length": "28961",
+      "content-type": "application/json",
+      "date": "Fri, 30 Oct 2026 21:57:21 GMT",
+      "retry-after": "1"
+    },
+    "bytes": 28961,
+    "sha256": "b2eb40bc0469f000a5a0f2ca0bed5ca8d9c8c2c75ef7782a12ee968dce56bbda",
+    "retry_attempt": false
+  },
+  {
+    "package": "requests",
+    "url": "https://pypistats.org/api/packages/requests/overall",
+    "start_utc": "2026-10-30T21:57:31.287785+00:00",
+    "end_utc": "2026-10-30T21:57:31.334790+00:00",
+    "status": 200,
+    "headers": {
+      "content-length": "28964",
+      "content-type": "application/json",
+      "date": "Fri, 30 Oct 2026 21:57:31 GMT",
+      "retry-after": "1"
+    },
+    "bytes": 28964,
+    "sha256": "2af1122f36118f1533ebfeb21907d95fb1b44588c0a80cb9aeff2d9efd6b3bda",
+    "retry_attempt": false
+  }
+]

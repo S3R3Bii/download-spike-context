@@ -1,0 +1,347 @@
+{
+  "scorable": 372,
+  "thresholds": {
+    "3": {
+      "both": 0,
+      "native_only": 0,
+      "filtered_only": 0,
+      "neither": 372,
+      "native": 0,
+      "filtered": 0,
+      "current_only": 0,
+      "changed": 0,
+      "changed_fraction": 0.0
+    },
+    "6": {
+      "both": 0,
+      "native_only": 0,
+      "filtered_only": 0,
+      "neither": 372,
+      "native": 0,
+      "filtered": 0,
+      "current_only": 0,
+      "changed": 0,
+      "changed_fraction": 0.0
+    },
+    "9": {
+      "both": 0,
+      "native_only": 0,
+      "filtered_only": 0,
+      "neither": 372,
+      "native": 0,
+      "filtered": 0,
+      "current_only": 0,
+      "changed": 0,
+      "changed_fraction": 0.0
+    }
+  },
+  "expected_origins": 540,
+  "unknown_origins": 168,
+  "by_package": {
+    "click": {
+      "scorable": 62,
+      "thresholds": {
+        "3": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 62,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "6": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 62,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "9": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 62,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        }
+      }
+    },
+    "httpx": {
+      "scorable": 62,
+      "thresholds": {
+        "3": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 62,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "6": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 62,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "9": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 62,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        }
+      }
+    },
+    "numpy": {
+      "scorable": 62,
+      "thresholds": {
+        "3": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 62,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "6": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 62,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "9": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 62,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        }
+      }
+    },
+    "pandas": {
+      "scorable": 62,
+      "thresholds": {
+        "3": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 62,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "6": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 62,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "9": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 62,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        }
+      }
+    },
+    "pytest": {
+      "scorable": 62,
+      "thresholds": {
+        "3": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 62,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "6": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 62,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "9": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 62,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        }
+      }
+    },
+    "scipy": {
+      "scorable": 62,
+      "thresholds": {
+        "3": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 62,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "6": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 62,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        },
+        "9": {
+          "both": 0,
+          "native_only": 0,
+          "filtered_only": 0,
+          "neither": 62,
+          "native": 0,
+          "filtered": 0,
+          "current_only": 0,
+          "changed": 0,
+          "changed_fraction": 0.0
+        }
+      }
+    }
+  },
+  "equal_package_change_fraction": {
+    "3": 0.0,
+    "6": 0.0,
+    "9": 0.0
+  },
+  "largest_score_changes": [
+    {
+      "package": "scipy",
+      "date": "2026-07-04",
+      "native_score": -2.1921337899608417,
+      "filtered_score": -2.5165627531102075,
+      "difference": 0.32442896314936576
+    },
+    {
+      "package": "pytest",
+      "date": "2026-07-02",
+      "native_score": 0.3019484780987014,
+      "filtered_score": -0.00012659904406575606,
+      "difference": 0.30207507714276716
+    },
+    {
+      "package": "scipy",
+      "date": "2026-07-02",
+      "native_score": 1.1311011851947939,
+      "filtered_score": 0.8435190908010881,
+      "difference": 0.28758209439370575
+    },
+    {
+      "package": "click",
+      "date": "2026-08-14",
+      "native_score": 0.61612708742949,
+      "filtered_score": 0.358816040575185,
+      "difference": 0.25731104685430495
+    },
+    {
+      "package": "click",
+      "date": "2026-08-12",
+      "native_score": 1.2379423769192144,
+      "filtered_score": 0.9922585100209602,
+      "difference": 0.24568386689825417
+    },
+    {
+      "package": "scipy",
+      "date": "2026-07-03",
+      "native_score": -0.39418638577618736,
+      "filtered_score": -0.6375252894131478,
+      "difference": 0.24333890363696042
+    },
+    {
+      "package": "click",
+      "date": "2026-08-08",
+      "native_score": -2.5240529962233893,
+      "filtered_score": -2.7617018206831645,
+      "difference": 0.2376488244597752
+    },
+    {
+      "package": "pytest",
+      "date": "2026-08-09",
+      "native_score": -2.690053911819703,
+      "filtered_score": -2.926557959439897,
+      "difference": 0.23650404762019406
+    },
+    {
+      "package": "pytest",
+      "date": "2026-07-03",
+      "native_score": -0.6646045374377607,
+      "filtered_score": -0.8860476546876939,
+      "difference": 0.22144311724993315
+    },
+    {
+      "package": "click",
+      "date": "2026-08-09",
+      "native_score": -2.8472599188203063,
+      "filtered_score": -3.0566285538440496,
+      "difference": 0.20936863502374337
+    }
+  ]
+}

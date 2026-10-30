@@ -1,0 +1,7 @@
+{
+  "state": "UNKNOWN_INCOMPLETE_PAIRED_HISTORY",
+  "native_score": null,
+  "filtered_score": null,
+  "current_only_score": null,
+  "interpretation": "Check counter definitions and release/deployment context; this does not label a true anomaly or adoption."
+}

@@ -1,16 +1,18 @@
 {
-  "timestamp_utc": "2026-10-30T21:54:55.790529+00:00",
-  "version": "Pre-acquisition protocol",
-  "status": "INCOMPLETE_PROTOCOL_ONLY",
-  "grade": 2,
+  "timestamp_utc": "2026-10-30T21:58:26.567600+00:00",
+  "version": "Development and authored exercise before final freeze",
+  "status": "INCOMPLETE_DEVELOPMENT_PASS_FINAL_PENDING",
+  "grade": 3,
   "gates": {
-    "source": "unknown",
-    "privacy": "pending_scan",
-    "separation": "pass_no_statistics_acquired",
-    "development": "unknown",
+    "source": "pass_12_entities_8558_native_SQLite_conditions",
+    "privacy": "pending_staged_scan",
+    "separation": "pass_no_final_analytical_extraction",
+    "development": "pass_12991_independent_conditions_372_scorable",
     "final": "unknown",
     "replay": "unknown",
-    "release": "pending"
+    "release": "pending",
+    "exercise": "pass_3_authored_examples",
+    "fixtures": "pass_19_methods"
   },
   "review_budget": {
     "round": 1,
@@ -28,5 +30,27 @@
     "reset_unix": 1793910839,
     "secondary": "unavailable",
     "shared_account": true
-  }
+  },
+  "source_evidence": {
+    "status": "PASS_PRIVATE_NATIVE_SQLITE_PROJECTION",
+    "conditions": 8558,
+    "source_entities": 12,
+    "source_cells": 4920,
+    "projected_rows": 1800,
+    "source_bytes": 346249
+  },
+  "failures_retained": [
+    "Collector whitespace gate rejected an extra blank EOF before its first commit; normalized without data changes.",
+    "Initial browser proof showed the reset creation form; preserved that image and captured a separate verified repository view."
+  ],
+  "development_evidence": {
+    "status": "PASS_INDEPENDENT_SQLITE_DECIMAL",
+    "phase": "development",
+    "conditions": 12991,
+    "scorable": 372,
+    "decimal_precision": 80,
+    "absolute_score_tolerance": 1e-10,
+    "exact_flags": true
+  },
+  "development_finding": "No flags at any of the three fixed thresholds on 372 development origins. No threshold adaptation."
 }
