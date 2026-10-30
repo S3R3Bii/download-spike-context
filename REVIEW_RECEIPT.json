@@ -1,32 +1,141 @@
 {
-  "timestamp_utc": "2026-10-30T21:54:55.790529+00:00",
-  "version": "Pre-acquisition protocol",
-  "status": "INCOMPLETE_PROTOCOL_ONLY",
-  "grade": 2,
+  "timestamp_utc": "2026-10-30T22:04:16.976748+00:00",
+  "version": "Local ready candidate; exact remote proof tracked in release records",
+  "status": "LOCAL_ACCEPTANCE_PASS",
+  "grade": 4,
   "gates": {
-    "source": "unknown",
-    "privacy": "pending_scan",
-    "separation": "pass_no_statistics_acquired",
-    "development": "unknown",
-    "final": "unknown",
-    "replay": "unknown",
-    "release": "pending"
+    "source": "pass_8558_native_SQLite_conditions",
+    "privacy": "pass_bounded_canonical_scan",
+    "separation": "pass_original_29_dependencies",
+    "development": "pass_12991_independent_conditions",
+    "final": "pass_12643_independent_conditions",
+    "replay": "pass_two_isolated_full_history_clones",
+    "exercise": "pass_3_authored_examples",
+    "fixtures": "pass_21_methods",
+    "figures": "pass_378_values_864_coordinates_9_hashes_and_visual_inspection",
+    "manuscript": "pass_61_bindings_272_conditions_6_rendered_pages"
   },
   "review_budget": {
-    "round": 1,
+    "round": 3,
     "max_rounds": 3,
     "max_active_minutes": 45,
     "max_review_calls": 60,
-    "exact_accounting": "Not separately instrumented; no invented elapsed/call count"
+    "exact_accounting": "Not separately instrumented; no invented elapsed/call count",
+    "review_elapsed_and_calls": "Exact active-review/call accounting not separately instrumented; overall workflow began 2026-10-30T21:53:59Z. Wall elapsed is only an upper-bound workload proxy, not quota or billing."
   },
   "usage": {
     "source": "Codex get_usage_limits",
-    "observed_utc": "2026-10-30T21:54:30Z",
+    "observed_utc": "2026-10-30T22:00:01Z",
+    "bucket": "codex",
     "window_minutes": 10080,
     "used_percent": 52,
     "remaining_percent": 48,
     "reset_unix": 1793910839,
     "secondary": "unavailable",
-    "shared_account": true
+    "shared_account_not_task_usage": true
+  },
+  "source_evidence": {
+    "status": "PASS_PRIVATE_NATIVE_SQLITE_PROJECTION",
+    "conditions": 8558,
+    "source_entities": 12,
+    "source_cells": 4920,
+    "projected_rows": 1800,
+    "source_bytes": 346249
+  },
+  "failures_retained": [
+    "Collector whitespace gate rejected an extra blank EOF before its first commit; normalized without data changes.",
+    "Initial browser proof showed the reset creation form; preserved that image and captured a separate verified repository view.",
+    "First figure axis wasted space; original figure/maps preserved and zero-based axis narrowed without data change.",
+    "Initial PDF had unbreakable slash/hash text; first source/PDF/log preserved and targeted wording/wrapping repaired.",
+    "Protocol/source-rights historical documents label publisher commit as a tree; separate API reads confirm actual tree and identical file blobs. Frozen bytes retained; explicit current correction changes no analytic inputs.",
+    "First compiler command had incorrect relative tool path and produced no PDF; corrected explicit path verified."
+  ],
+  "development_evidence": {
+    "status": "PASS_INDEPENDENT_SQLITE_DECIMAL",
+    "phase": "development",
+    "conditions": 12991,
+    "scorable": 372,
+    "decimal_precision": 80,
+    "absolute_score_tolerance": 1e-10,
+    "exact_flags": true
+  },
+  "development_finding": "No flags at any of the three fixed thresholds on 372 development origins. No threshold adaptation.",
+  "criteria": {
+    "source": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "12 exact entities, 150 paired dates for all packages; independent native SQLite reconstruction",
+      "limitation": "Current aggregate vintage; inspected publisher code is not a historical deployment audit."
+    },
+    "analysis": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "All fixed settings retained; exact flags and Decimal score checks on development/final",
+      "limitation": "No true-anomaly labels, causal identification or operational benefit."
+    },
+    "separation": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Original 29-file manifest and prior development commit",
+      "limitation": "Final raw counters were already present; not blinded collection."
+    },
+    "exercise": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Three authored examples and 21 finite fixture methods",
+      "limitation": "Teaching input; no outgoing alert or deployment."
+    },
+    "presentation": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Three inspected source-bound figures and six source-bound rendered paper pages",
+      "limitation": "No accessibility conformance claim from visual inspection."
+    },
+    "privacy": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "64-file staged scan and 63 canonical Git blobs on b9cc474; refreshed on this coherent metadata revision",
+      "limitation": "Bounded patterns/path/scope/hash checks, not universal privacy detection."
+    },
+    "replay": {
+      "state": "pass",
+      "grade": 4,
+      "evidence": "Full-history independent clones under CPython3.10.11 and3.12.14; 11173 exact fields,2310 tolerant fields,4 source files unchanged,21 fixtures,29 frozen dependencies and3 examples each.",
+      "limitation": "Saved-source replay; no live-refresh or production validation."
+    }
+  },
+  "final_evidence": {
+    "status": "PASS_INDEPENDENT_SQLITE_DECIMAL",
+    "phase": "final",
+    "conditions": 12643,
+    "scorable": 360,
+    "decimal_precision": 80,
+    "absolute_score_tolerance": 1e-10,
+    "exact_flags": true
+  },
+  "reviewed_files_sha256": {
+    "paper/main.tex": "61607d3015c5411a47ca8b3eed56a96e4a40a33eda3c89019302db97e9a64208",
+    "paper/manuscript.pdf": "acfea8e990c0f34753cc13892f3509d63d2539ff3c7a1eb9f8124720faa1e002",
+    "figures/value_map.json": "be3987d446772bedd2a9c9c37ecb96cb3a5f1fcc716d103810b3c13eae7ee6cd",
+    "SOURCE_REVISION_CLARIFICATION.md": "0fd3c32aa79ffe16d4f53d565d5b79c4a732924187ed800919c766804c2016e8"
+  },
+  "scope": "Finite local artifact acceptance; overall release additionally requires exact candidate/main CI, tested-tree identity, remote annotated tag and synchronized metadata.",
+  "release_evidence": {
+    "state": "PENDING_EXACT_REMOTE_CHECKS",
+    "pull_request": "https://github.com/S3R3Bii/download-spike-context/pull/2"
+  },
+  "replay_evidence": {
+    "python": [
+      "3.10.11",
+      "3.12.14"
+    ],
+    "exact_fields": 11173,
+    "tolerant_fields": 2310,
+    "unchanged_source_JSON_files": 4,
+    "full_history_clones": true,
+    "frozen_dependencies": 29,
+    "fixtures": 21,
+    "authored_examples": 3,
+    "source_network_requests": 0
   }
 }

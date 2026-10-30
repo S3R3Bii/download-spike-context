@@ -1,0 +1,9 @@
+{
+  "status": "PASS_INDEPENDENT_SQLITE_DECIMAL",
+  "phase": "final",
+  "conditions": 12643,
+  "scorable": 360,
+  "decimal_precision": 80,
+  "absolute_score_tolerance": 1e-10,
+  "exact_flags": true
+}

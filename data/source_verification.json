@@ -1,0 +1,8 @@
+{
+  "status": "PASS_PRIVATE_NATIVE_SQLITE_PROJECTION",
+  "conditions": 8558,
+  "source_entities": 12,
+  "source_cells": 4920,
+  "projected_rows": 1800,
+  "source_bytes": 346249
+}

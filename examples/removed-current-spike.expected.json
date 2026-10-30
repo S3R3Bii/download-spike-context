@@ -1,0 +1,22 @@
+{
+  "state": "scored",
+  "native_score": 22.936342624739606,
+  "filtered_score": 0.0,
+  "current_only_score": 0.0,
+  "native_flags": {
+    "3": true,
+    "6": true,
+    "9": true
+  },
+  "filtered_flags": {
+    "3": false,
+    "6": false,
+    "9": false
+  },
+  "current_only_flags": {
+    "3": false,
+    "6": false,
+    "9": false
+  },
+  "interpretation": "Check counter definitions and release/deployment context; this does not label a true anomaly or adoption."
+}

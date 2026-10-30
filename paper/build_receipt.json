@@ -1,0 +1,19 @@
+{
+  "status": "PASS_COMPILE_AND_SIX_PAGE_VISUAL_REVIEW",
+  "timestamp_utc": "2026-10-30T22:02:39.272018+00:00",
+  "compiler": "Tectonic",
+  "pages": 6,
+  "render_tool": "Poppler pdftoppm",
+  "render_dpi": 95,
+  "visual_checks": "All six pages and current three figures inspected. Changed pages 3/6 freshly rendered after commit/tree wording correction. Readable figures/tables, no clipping or overlap, unchanged flag result and scope visible.",
+  "layout_warnings": [],
+  "private_log_sha256": "bf9f7120fabc6f60b4a3bb5ff9d32c1a8816a9cf9f3044ad179ae9f44a31adb9",
+  "artifact_sha256": {
+    "paper/main.tex": "61607d3015c5411a47ca8b3eed56a96e4a40a33eda3c89019302db97e9a64208",
+    "paper/manuscript.pdf": "acfea8e990c0f34753cc13892f3509d63d2539ff3c7a1eb9f8124720faa1e002",
+    "paper/images/filter_accounting.pdf": "a5485b4eaf668384235be8890214d7e323556eaf74482209c3810bc48d4c2ced",
+    "paper/images/final_flags.pdf": "da9add9ad91d45c8dae76fab855b9cde30fb306cae12da1ee91938f5a8462a75",
+    "paper/images/paired_scores.pdf": "a6b1bb624d3b6c0051d114e12d0e2a10245811ff73bb978fc62f04b3e2476587"
+  },
+  "first_layout_preserved": true
+}
